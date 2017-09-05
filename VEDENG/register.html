@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div class="header global-header">
+    <div class="header-bar">
+        <div class="container">
+            <div class="header-bar-right">
+                <a href="index.html" class="item">回到首页</a>
+
+            </div>
+            <p class="header-bar-left">
+                <a href="login.html">登录</a>
+                <a href="#" class="link-outstanding">注册</a>
+            </p>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="container">
+            <h2 class="hotline"><i class="imgicon imgicon-phone"></i>4006-999-569</h2>
+            <h1 id="logo"><a href="index.html" class="img"><img src="images/logo.png" alt=""></a></h1>
+        </div>
+    </div>
+</div>
+<div class="content register-page">
+    <div class="container">
+        <div class="box box-register">
+            <div class="box-title">
+                <h3>用户注册</h3>
+            </div>
+
+            <div class="list box-body">
+                <div class = "item item-input">
+                    <label for="mobile" class="input-label"><b class="asterisk">*</b>手机号码:</label>
+                    <div class="input-content input-correct">
+                        <input type = "text" name="" id="mobile" maxlength="15" class = "form-control input-full" placeholder="请输入手机号码"/>
+                    </div>
+
+                </div>
+                <div class = "item item-input">
+                    <label for="captcha" class="input-label"><b class="asterisk">*</b>验证码:</label>
+                    <div class="input-content">
+                        <input type="text" name="" id="captcha" maxlength="4" class="form-control input-half" placeholder="右图的字符"/>
+                    </div>
+                    <img src = "HTML/captcha.html" alt=""/>
+                    <a href="#" id="changeCaptcha_001">刷新</a>
+                </div>
+                <div class = "item item-input">
+                    <label for = "sms_verify_code" class = "input-label"><b class="asterisk">*</b>手机验证码:</label>
+                    <div class="input-content">
+                        <input type="text" name="" id="sms_verify_code" maxlength="6" class="form-control input-half" placeholder="短信验证码"/>
+                    </div>
+                    <a href="#" id="btn_sms_verify_code" class="btn btn_default">获取短信验证码</a>
+                </div>
+                <div class="item item-input">
+                    <label for="password-1" class="input-label"><b class="asterisk">*</b>密码:</label>
+                    <div class="input-content">
+                        <input type="password" name="" id="password-1" maxlength="16" class="form-control input-full" placeholder="请输入6-16位的密码"/>
+                        <div class="pass-strength" style="display: none">
+                            <label >安全程度：</label>
+                            <span class="weak" id="pass-strength">&nbsp;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item item-input">
+                    <label for="passwd-2" class="input-label"><b class="asterisk">*</b>确认密码：</label>
+                    <div class="input-content">
+                        <input type="password" name="" id="passwd-2" value="" class="form-control input-full" placeholder="请再次输入密码" data-messages="确认密码不正确!" maxlength="16">
+                    </div>
+                </div>
+                <div class="item item-input">
+                    <label for="corporation" class="input-label"><b class="asterisk">*</b>企业名称：</label>
+                    <div class="input-content input-correct">
+                        <input type="text" name="" id="corporation" class="form-control input-full" placeholder="请输入企业名称" data-messages="请输入企业名称!">
+                    </div>
+                </div>
+                <div class="item item-input checkbox-content">
+                    <div class="input-content checkbox">
+
+                        <input type="checkbox" name="agree" checked="checked" id="agree" data-messages="同意贝登医疗用户协议后才能注册!">
+                        我已经阅读并同意<a href="#" target="_blank">贝登医疗用户协议</a>
+                        <span class="error-text"></span>
+
+                    </div>
+                </div>
+                <div class="item item-input submit-content">
+                    <div class="input-content">
+                        <a href="#" id="formSubmit" class="btn btn-submit btn-lg btn-full">注册</a>
+                    </div>
+                </div>
+                <div class="item item-input login-link-content">
+                    <div class="input-content">
+                        <p class="login">已有账号，立即<a href="login.html">登录</a></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <div class="reg-img">&nbsp;</div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="container">
+        <div class="about-links login-footer">
+            <p class="nav">
+                <a href="#" target="_blank">关于我们</a>|<a href="#" target="_blank">联系我们</a>|<a href="#" target="_blank">法律声明</a>|<a href="#" target="_blank">隐私声明</a>|<a href="#" target="_blank">器械数据库</a>
+            </p>
+            <p class="copyright">
+                Copyright © 2010-2012 VEDENG Corporation All Rights Reserved ICP备案证书号:<a href="#" rel="nofollow" target="_blank">苏ICP备11075436号</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

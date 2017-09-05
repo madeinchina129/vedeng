@@ -1,0 +1,1676 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/goodsDetails.css">
+</head>
+<body>
+<div class = "header">
+    <div class = "header-bar">
+        <div class = "container">
+            <div class = "header-bar-right">
+                <ul>  <li><a href = "#">首页</a></li>
+                    <li><a href = "#">我的账号</a></li>
+                    <li><a href = "#">我的关注<em>0</em></a></li>
+                </ul>
+
+                <div class = "item item-toggle">
+                    <div id="item-toggle" class="item item-toggle">
+                        <span class="toggle">客户服务 <i class="iconfont iconfont-unfold arrow-up"></i></span>
+                        <ul id = "toggle-list" class="toggle-content toggle-list" style="display: none;">
+                            <li><a href="#">帮助中心</a></li>
+                            <li><a href="#">意见建议</a></li>
+                        </ul>
+                    </div>
+                    <div id = "last-toggle" class="item item-toggle last-child">
+                        <span class="toggle">手机访问 <i class="iconfont iconfont-unfold arrow-up"></i></span>
+                        <div id = "toggle-qr-content" class="toggle-content toggle-qr-content" style="display: none;">
+                            <img src="images/vedeng-qr.jpg" alt="贝登医疗微信号">
+                            <div class="content">关注贝登医疗微信号，随时随地获取贝登服务，阅读最新资讯。</div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="header-bar-left">
+                <ul>
+                    <li>欢迎来到贝登医疗</li>
+                    <li><a href="login.html" class="link-outstanding">请登录</a></li>
+                    <li><a href="register.html">免费注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="container">
+            <h1 id="logo"><a href="#"><img src="images/site_logo.png" alt="贝登医疗 logo"></a>
+
+            </h1>
+            <div class="header-search">
+                <div class="form-group">
+                    <form action="#" method="get" id="searchForm" onsubmit="">
+                        <input class="keyword input_text" type="text" name="kw" id="" placeholder="输入产品名称或型号" autocomplete="off" disableautocomplete="" value="">
+                        <input class="search" type="submit" value="搜索">
+                    </form>
+                </div>
+                <div id="searchkey_result_1" class="searchkey_result searchkey_result_hidden">
+                    <ul>
+                    </ul>
+                    <div>
+                        <span id="searchkey_result_pad_close_1" class="close">[关闭]</span>
+                    </div>
+                </div>
+                <div class="hot-tips">
+                    <ul>
+                        <li><span class="mtitle">热门产品：</span></li>
+                        <li><a href="#">迈瑞生化分析仪</a></li>
+                        <li><a href="#">生物显微镜</a></li>
+                        <li><a href="#">移液枪</a></li>
+                        <li><a href="#">心电图机</a></li>
+                        <li><a href="#">离心机</a></li>
+                        <li><a href="#">酶标仪</a></li>
+                        <li><a href="#">医用冰箱</a></li>
+                        <li><a href="#">灭菌器</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-hotline">
+                <div class="imgicon-phone">4006-999-569</div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+    </div>
+    <!--导航栏-->
+    <div class="header-nav">
+        <div class="container">
+            <div class="ve-row">
+                <!-- BOF 分类导航 -->
+                <div id = "header-categories" class="header-categories">
+                    <h3 id = "header-categories-header" class="header-categories-header"><i class="iconfont iconfont-sort"></i>产品分类</h3>
+                    <!--分类导航树-->
+                    <ul id="hide" class="main-categories-list hide" dataurl="/default/category-tree.html" style="display: none;">																																																													<li class="item" id="menuItem_1">
+                        <a href="" class="category-trigger"><i class="iconfont iconfont-cate-1"></i>临床检验</a>
+                        <div class="main-categories-list-content" id="menuSub_1" style="top: -2px; display: none;">
+                            <div class="category-main">
+                                <dl class="sub-category">
+                                    <dt>
+                                        <a href="#">血液分析</a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">
+                                            <em>血液细胞分析仪</em>
+                                        </a>
+                                        <a href="#">
+                                            血凝分析仪                                   								   </a>
+                                        <a href="#">
+                                            <em>电解质分析仪</em>
+                                        </a>
+                                        <a href="#">
+                                            血沉仪                                   								   </a>
+                                    </dd>
+                                </dl>
+                                <dl class="sub-category">
+                                    <dt>
+                                        <a href="#">生化/尿液</a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">
+                                            <em>全自动生化分析仪</em>
+                                        </a>
+                                        <a href="#">
+                                            半自动生化分析仪                                   								   </a>
+                                        <a href="#">
+                                            <em>尿液分析仪</em>
+                                        </a>
+                                        <a href="#">
+                                            血脂仪                                   								   </a>
+                                        <a href="#">
+                                            尿液试纸条                                   								   </a>
+                                        <a href="#">
+                                            样品杯                                   								   </a>
+                                    </dd>
+                                </dl>
+                                <dl class="sub-category">
+                                    <dt>
+                                        <a href="#">免疫分析</a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">
+                                            <em>酶标仪</em>
+                                        </a>
+                                        <a href="#">
+                                            洗板机                                   								   </a>
+                                    </dd>
+                                </dl>
+                                <dl class="sub-category">
+                                    <dt>
+                                        <a href="#">体检机</a>
+                                    </dt>
+                                    <dd>
+                                    </dd>
+                                </dl>
+
+                            </div>
+                        </div>
+                    </li>
+                        <li class="item" id="menuItem_2">
+                            <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-2"></i>电子超声</a>
+                            <div class="main-categories-list-content" id="menuSub_2" style="top: -2px; display: none;">
+                                <div class="category-main">
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">除颤起搏</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                除颤监护仪                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">心电诊断</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>心电图机</em>
+                                            </a>
+                                            <a href="#">
+                                                心电图工作站                                   								   </a>
+                                            <a href="#">
+                                                心电工作站                                   								   </a>
+                                            <a href="#">
+                                                脑电测量仪                                   								   </a>
+                                            <a href="#">
+                                                配件                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">体征监护</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>多参数监护仪</em>
+                                            </a>
+                                            <a href="#">
+                                                健康一体机                                   								   </a>
+                                            <a href="#">
+                                                母婴监护仪                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">超声诊断</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>黑白超</em>
+                                            </a>
+                                            <a href="#">
+                                                彩超                                   								   </a>
+                                            <a href="#">
+                                                经颅多普勒血流仪                                   								   </a>
+                                            <a href="#">
+                                                骨密度仪                                   								   </a>
+                                            <a href="#">
+                                                多普勒胎心仪                                   								   </a>
+                                            <a href="#">
+                                                胎儿/母婴监护                                   								   </a>
+                                            <a href="#">
+                                                配件                                   								   </a>
+                                            <a href="#">
+                                                眼科超声                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">体温/血压计</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                耳温计                                   								   </a>
+                                            <a href="#">
+                                                非接触额温计                                   								   </a>
+                                            <a href="#">
+                                                医用电子血压计                                   								   </a>
+                                            <a href="#">
+                                                全自动血压计                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">普通诊查</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                听诊器                                   								   </a>
+                                            <a href="#">
+                                                体温计                                   								   </a>
+                                            <a href="#">
+                                                手电                                   								   </a>
+                                            <a href="#">
+                                                听力检测                                   								   </a>
+                                            <a href="#">
+                                                肺功能仪                                   								   </a>
+                                            <a href="#">
+                                                检耳镜                                   								   </a>
+                                            <a href="#">
+                                                检眼镜                                   								   </a>
+                                            <a href="#">
+                                                叩诊锤                                   								   </a>
+                                            <a href="#">
+                                                雾化器                                   								   </a>
+                                            <a href="#">
+                                                血压表                                   								   </a>
+                                            <a href="#">
+                                                人体成分分析仪                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">台车</a>
+                                        </dt>
+                                        <dd>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item" id="menuItem_3">
+                            <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-3"></i>实验仪器</a>
+                            <div class="main-categories-list-content" id="menuSub_3" style="top: -2px; display: none;">
+                                <div class="category-main">
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">生命科学</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>显微镜</em>
+                                            </a>
+                                            <a href="#">
+                                                <em>PCR仪</em>
+                                            </a>
+                                            <a href="#">
+                                                细胞计数仪                                   								   </a>
+                                            <a href="#">
+                                                电泳仪                                   								   </a>
+                                            <a href="#">
+                                                凝胶成像仪                                   								   </a>
+                                            <a href="#">
+                                                流式细胞仪                                   								   </a>
+                                            <a href="#">
+                                                自动化移液工作站                                   								   </a>
+                                            <a href="#">
+                                                摄像头                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">温度控制</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>冰箱</em>
+                                            </a>
+                                            <a href="#">
+                                                <em>液氮罐</em>
+                                            </a>
+                                            <a href="#">
+                                                细胞培养箱                                   								   </a>
+                                            <a href="#">
+                                                培养箱                                   								   </a>
+                                            <a href="#">
+                                                干燥箱                                   								   </a>
+                                            <a href="#">
+                                                制冰机                                   								   </a>
+                                            <a href="#">
+                                                水浴和干浴                                   								   </a>
+                                            <a href="#">
+                                                配件                                   								   </a>
+                                            <a href="#">
+                                                电热板                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">混合破碎</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                搅拌器                                   								   </a>
+                                            <a href="#">
+                                                混合器                                   								   </a>
+                                            <a href="#">
+                                                摇床                                   								   </a>
+                                            <a href="#">
+                                                分散机                                   								   </a>
+                                            <a href="#">
+                                                超声波破碎仪                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">分离浓缩</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>离心机</em>
+                                            </a>
+                                            <a href="#">
+                                                真空泵                                   								   </a>
+                                            <a href="#">
+                                                离心浓缩仪                                   								   </a>
+                                            <a href="#">
+                                                旋转蒸发仪                                   								   </a>
+                                            <a href="#">
+                                                冷冻干燥机                                   								   </a>
+                                            <a href="#">
+                                                配件                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">净化消毒</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                灭菌器                                   								   </a>
+                                            <a href="#">
+                                                纯水机                                   								   </a>
+                                            <a href="#">
+                                                超净工作台                                   								   </a>
+                                            <a href="#">
+                                                <em>生物安全柜</em>
+                                            </a>
+                                            <a href="#">
+                                                超声波清洗机                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">物性和电化学</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                实验天平                                   								   </a>
+                                            <a href="#">
+                                                粘度计                                   								   </a>
+                                            <a href="#">
+                                                分光光度计                                   								   </a>
+                                            <a href="#">
+                                                PH/电导率仪                                   								   </a>
+                                            <a href="#">
+                                                色谱仪                                   								   </a>
+                                            <a href="#">
+                                                <em>火焰光度计</em>
+                                            </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">实验耗材</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>移液器</em>
+                                            </a>
+                                            <a href="#">
+                                                瓶口分液器                                   								   </a>
+                                            <a href="#">
+                                                移液吸头                                   								   </a>
+                                            <a href="#">
+                                                移液管                                   								   </a>
+                                            <a href="#">
+                                                PCR管                                   								   </a>
+                                            <a href="#">
+                                                冻存管                                   								   </a>
+                                            <a href="#">
+                                                离心管                                   								   </a>
+                                            <a href="#">
+                                                培养皿                                   								   </a>
+                                            <a href="#">
+                                                培养瓶                                   								   </a>
+                                            <a href="#">
+                                                封口膜                                   								   </a>
+                                            <a href="#">
+                                                过滤器                                   								   </a>
+                                            <a href="#">
+                                                <em>试剂瓶</em>
+                                            </a>
+                                            <a href="#">
+                                                冻存盒                                   								   </a>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item" id="menuItem_4">
+                            <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-4"></i>医用光学</a>
+                            <div class="main-categories-list-content" id="menuSub_4" style="top: -2px; display: none;">
+                                <div class="category-main">
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">眼科检查</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                裂隙灯                                   								   </a>
+                                            <a href="#">
+                                                验光仪                                   								   </a>
+                                            <a href="#">
+                                                视力筛查仪                                   								   </a>
+                                            <a href="#">
+                                                眼压计                                   								   </a>
+                                            <a href="#">
+                                                检眼镜                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">医用内窥镜</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                耳鼻喉镜                                   								   </a>
+                                            <a href="#">
+                                                <em>呼吸系统内镜</em>
+                                            </a>
+                                            <a href="#">
+                                                腹腔镜                                   								   </a>
+                                            <a href="#">
+                                                妇科内镜                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">手术显微</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>手术显微镜</em>
+                                            </a>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item" id="menuItem_6">
+                            <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-6"></i>医学影像</a>
+                            <div class="main-categories-list-content" id="menuSub_6" style="top: -2px; display: none;">
+                                <div class="category-main">
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">普放设备</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>数字X射线摄影系统（DR）</em>
+                                            </a>
+                                            <a href="#">
+                                                相机                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">X射线防护</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                防护服                                   								   </a>
+                                            <a href="#">
+                                                防护巾                                   								   </a>
+                                            <a href="#">
+                                                防护裤头                                   								   </a>
+                                            <a href="#">
+                                                护腿                                   								   </a>
+                                            <a href="#">
+                                                铅胶帽                                   								   </a>
+                                            <a href="#">
+                                                铅胶围领                                   								   </a>
+                                            <a href="#">
+                                                防护眼镜                                   								   </a>
+                                            <a href="#">
+                                                防护面罩                                   								   </a>
+                                            <a href="#">
+                                                防护手套                                   								   </a>
+                                            <a href="#">
+                                                护臂                                   								   </a>
+                                            <a href="#">
+                                                防护屏                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">配件</a>
+                                        </dt>
+                                        <dd>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item" id="menuItem_7">
+                            <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-7"></i>手术急救</a>
+                            <div class="main-categories-list-content" id="menuSub_7" style="top: -2px; display: none;">
+                                <div class="category-main">
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">手术设备</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                手术台                                   								   </a>
+                                            <a href="#">
+                                                产床                                   								   </a>
+                                            <a href="#">
+                                                耳鼻喉治疗台                                   								   </a>
+                                            <a href="#">
+                                                无影灯                                   								   </a>
+                                            <a href="#">
+                                                手术头灯                                   								   </a>
+                                            <a href="#">
+                                                麻醉机                                   								   </a>
+                                            <a href="#">
+                                                呼吸机                                   								   </a>
+                                            <a href="#">
+                                                高频电刀                                   								   </a>
+                                            <a href="#">
+                                                吊塔                                   								   </a>
+                                            <a href="#">
+                                                手术灯                                   								   </a>
+                                            <a href="#">
+                                                医用平车                                   								   </a>
+                                            <a href="#">
+                                                手术床                                   								   </a>
+                                            <a href="#">
+                                                手术固定架                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">复苏供养</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                医用制氧机                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">输注辅助</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>注射泵</em>
+                                            </a>
+                                            <a href="#">
+                                                输液泵                                   								   </a>
+                                            <a href="#">
+                                                营养泵                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">吸引/洗胃</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                负压吸引器                                   								   </a>
+                                            <a href="#">
+                                                吸痰器                                   								   </a>
+                                            <a href="#">
+                                                洗胃机                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">医用激光</a>
+                                        </dt>
+                                        <dd>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item" id="menuItem_8">
+                            <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-8"></i>消毒灭菌</a>
+                            <div class="main-categories-list-content" id="menuSub_8" style="top: -2px; display: none;">
+                                <div class="category-main">
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">灭菌设备</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                压力蒸汽灭菌器                                   								   </a>
+                                            <a href="#">
+                                                灭菌器配件                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">灭菌监测</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>化学指示胶带</em>
+                                            </a>
+                                            <a href="#">
+                                                <em>生物指示剂</em>
+                                            </a>
+                                            <a href="#">
+                                                BD测试纸/包                                   								   </a>
+                                            <a href="#">
+                                                生物阅读器                                   								   </a>
+                                            <a href="#">
+                                                化学指示卡                                   								   </a>
+                                            <a href="#">
+                                                化学指示标签                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">灭菌包装</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                医用无纺布                                   								   </a>
+                                            <a href="#">
+                                                皱纹纸                                   								   </a>
+                                            <a href="#">
+                                                纸塑包装袋                                   								   </a>
+                                            <a href="#">
+                                                医用封口机                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">清洗耗材</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                多酶清洗剂                                   								   </a>
+                                            <a href="#">
+                                                润滑油、防锈剂                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">空气消毒机</a>
+                                        </dt>
+                                        <dd>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">清洗设备</a>
+                                        </dt>
+                                        <dd>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item" id="menuItem_9">
+                            <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-9"></i>医用耗材</a>
+                            <div class="main-categories-list-content" id="menuSub_9" style="top: -2px; display: none;">
+                                <div class="category-main">
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">缝合线</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                可吸收缝合线                                   								   </a>
+                                            <a href="#">
+                                                不可吸收缝合线                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">包扎敷料</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                创口贴                                   								   </a>
+                                            <a href="#">
+                                                纱布绷带                                   								   </a>
+                                            <a href="#">
+                                                自粘敷料                                   								   </a>
+                                            <a href="#">
+                                                医用胶带                                   								   </a>
+                                            <a href="#">
+                                                棉片棉球                                   								   </a>
+                                            <a href="#">
+                                                输液贴                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">功能敷料</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                水胶敷料                                   								   </a>
+                                            <a href="#">
+                                                藻酸盐敷料                                   								   </a>
+                                            <a href="#">
+                                                含银敷料                                   								   </a>
+                                            <a href="#">
+                                                泡沫敷料                                   								   </a>
+                                            <a href="#">
+                                                透明敷料                                   								   </a>
+                                            <a href="#">
+                                                其他敷料                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">防护隔离</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>医用口罩</em>
+                                            </a>
+                                            <a href="#">
+                                                医用手套                                   								   </a>
+                                            <a href="#">
+                                                衣物防护                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">导管/引流</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                导尿管/集尿袋                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">胶片/打印机</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                医用胶片                                   								   </a>
+                                            <a href="#">
+                                                医用打印机                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">打印纸</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>心电图纸</em>
+                                            </a>
+                                            <a href="#">
+                                                脑电图纸                                   								   </a>
+                                            <a href="#">
+                                                监护仪纸                                   								   </a>
+                                            <a href="#">
+                                                B超打印纸                                   								   </a>
+                                            <a href="#">
+                                                其他打印纸                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">手术耗材</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                手术巾                                   								   </a>
+                                            <a href="#">
+                                                手术切口层保护器                                   								   </a>
+                                            <a href="#">
+                                                医用敷巾                                   								   </a>
+                                            <a href="#">
+                                                吸水垫                                   								   </a>
+                                            <a href="#">
+                                                医用包                                   								   </a>
+                                            <a href="#">
+                                                免缝胶带                                   								   </a>
+                                            <a href="#">
+                                                手术薄膜                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">一次性医用耗材</a>
+                                        </dt>
+                                        <dd>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">采血管</a>
+                                        </dt>
+                                        <dd>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--分类导航树结束-->
+                </div>
+
+                <!-- EOF 分类导航 -->
+                <ul class="main-nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">找产品</a></li>
+                    <li><a href="#">找品牌</a></li>
+                    <li><a href="#">关于我们</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="conter product-page">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="index.html" class="item">首页</a></li>
+            <li><span>实验仪器</span></li>
+            <li><span>生命科学</span></li>
+            <li><span>显微镜</span></li>
+            <li><span>OLYMPUS奥林巴斯 显微镜CX23</span></li>
+        </ul>
+        <div class="page-frame">
+            <div class="page-main">
+                <div class="product-brief-container">
+                    <div class="product-images">
+                        <div class="image-lg-view-content">
+                            <img class="product-hot" src="images/hot.png">
+                            <div class="image-lg-view"  id="image-lg-view">
+                                <!--<img src="images/category/14537950328192.jpg">-->
+                                <div class="image-selector" style=""></div>
+                            </div>
+                        </div>
+                        <div class="image-xs-list">
+                            <div class="imageList">
+                                <ul>
+                                    <li><img src="images/category/14537950328192(1).jpg"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="image-xlg-view" style = "display:none;">
+                            <img src="images/category/14537950328192(2).jpg">
+                        </div>
+                        <div class="action-bar">
+                            <p class="jiathis_style right">
+                                <span class="jiathis_txt">分享</span> <a href="#" class="" target="_blank"></a>
+                                <a class="jiathis_counter_style"><span class="" title="累计分享3次">3</span></a>
+                            </p>
+                            <a href="#" class="favourite" onclick="">关注产品</a>
+                        </div>
+                    </div>
+                    <div class="product-brief">
+                        <h2>
+                            OLYMPUS奥林巴斯 显微镜CX23 <br>
+                            <small><h5><span style="color: rgb(227, 55, 55);">奥林巴斯显微镜CX21和CX22升级替代型号，选型报价找贝登，专业可靠，当天发货。</span></h5></small>
+                        </h2>
+
+                        <dl class="product-infos-list">
+                            <dl>
+                                <dt>批准文号:</dt>
+                                <dd><a target="_blank" href="#">粤械注准20152220084</a>&nbsp;&nbsp;<a target="_blank" href="#">批准文号查询</a>
+                                </dd>
+                                <dt>类别:</dt>
+                                <dd>
+                                    二类医疗器械
+                                </dd>
+                                <dt>品牌:</dt>
+                                <dd>OLYMPUS奥林巴斯</dd>
+                                <dt>型号:</dt>
+                                <dd>CX23</dd>
+                                <dt>货号:</dt>
+                                <dd>V149573</dd>
+                                <dt>服务商:</dt>
+                                <dd>由贝登发货并提供售后服务 <em>咨询热线：4006-999-569</em></dd>
+                                <dt id="has_price_dt" class="hide">贝登价:</dt>
+                                <dd id="has_price_dd" class="price-container hide">
+                                    <p class="price">
+                                        <strong id="price_span"></strong>元
+										<span class="text-muted">市场价: <del id="shop_price_span"></del>
+											元
+										</span>
+                                    </p>
+                                </dd>
+
+
+                                <dt>&nbsp;</dt>
+                                <dd class="btn-container">
+                                    <input name="_csrf" type="hidden" id="_csrf" value=""> <input type="hidden" name="item_spec_price_id" id="item_spec_price_id" value="5473">
+                                    <input type="hidden" name="item_id" id="item_id" value="149573">
+                                    <a href="#" class="btn btn-lg btn-primary" onclick="" id="contact_tjxj">提交询价</a>
+                                    <a target="_blank" class="btn btn-lg btn-primary" id="contact_zxxj" href="#" title="在线询价">在线询价</a>
+                                    <a target="_blank" class="btn btn-lg btn-primary" id="contact_qq" href="#" title="QQ咨询">QQ咨询</a>
+
+                                </dd>
+                            </dl>
+                        </dl>
+                    </div>
+                </div>
+                <div class="product-info-content">
+                    <ul class="hd">
+                        <li class="on">产品介绍</li>
+                        <li>技术参数</li>
+                        <li>技术文档</li>
+                        <li>售后保障</li>
+                        <li>可选配件</li>
+                    </ul>
+                    <div class="bd">
+                        <div class="item editor-style">
+                            <p><img alt="" src="images/20110921071935_23106.jpg" title=""></p>
+                            <p style="text-align: center;">
+                                <span style="">
+                                    <span style="font-size: 24px;; color: rgb(89, 89, 89);"><strong>
+                                        <span style="font-size: 24px;">奥林巴斯CX23显微镜</span></strong></span>
+                                    <span style="font-size: 18px; color: rgb(84, 141, 212);"><strong>
+                                        <span style="font-size: 18px;"><br></span></strong>
+                                        <strong><span style="font-size: 18px;"></span></strong>
+                                    </span></span></p><p><span style="color: rgb(84, 141, 212); font-size: 24px;"><strong>
+                            <span style="font-size: 24px; color: rgb(84, 141, 212);"><br></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);">
+                                奥林巴斯CX23显微镜设计上便于使用，其独特性能适合于学生，并且可以满足教育设施里的所有要求。 这种高性价比系统在整个工作流过程中提供了轻松而安全的操作，并以20的大视场数（FN）确保了出色的光学性能。 并且内置的LED光源以低功耗提供了长期的均匀而稳定的照明，减少蓝色保留了样品的生动颜色。</span></p>
+                            <p><br></p><p style="line-height: 1.5em;">
+                            <span style="font-size: 18px;">
+                                <strong><span style="font-size: 18px;  color: rgb(89, 89, 89);">
+                                    各方面的使用都具有操作的简便性</span></strong></span></p>
+                            <p><img src="images/1453887916165101.jpg" title="" alt="奥林巴斯CX23显微镜操作步骤图" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p><p><br></p><p><span style="">
+                            <span style="font-size: 18px;">
+                                <strong><span style="color: rgb(89, 89, 89);">人性化的把手</span></strong>
+                            </span><span style="font-size: 16px;"><strong>
+                            <span style="color: rgb(89, 89, 89);"></span></strong>
+                            <strong><span style="color: rgb(89, 89, 89);"></span></strong></span></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);">
+                                从高处取下显微镜时，比如书架上，人性化设计的奥林巴斯CX23显微镜模塑把手增加了舒适性和安全性。 此外，蓝色清晰地指示了持握显微镜的部位。</span></p><p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><img src="images/1453887057429015.jpg" title="" alt="奥林巴斯CX23显微镜人性化的手柄大图" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p><p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><span style=""><span style="font-size: 18px;">
+                                <strong><span style="color: rgb(89, 89, 89);">同类中≌轻的显微镜</span></strong><strong><span style="color: rgb(89, 89, 89);"></span></strong></span>
+                                <strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p><p>
+                            <span style="font-size: 14px; color: rgb(89, 89, 89);">奥林巴斯CX23显微镜是同类中重量≌轻的显微镜之一，其总重量大约为5.9 kg（13.01 lbs）。 5.9 kg(13.01 lbs)。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p><p><span style=""><span style="font-size: 18px;">
+                            <strong><span style="color: rgb(89, 89, 89);">有刻线的双目镜筒</span></strong></span>
+                            <strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong>
+                            <strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);">奥林巴斯CX23显微镜拥有一个搬运臂，其弯曲的角度可以使手腕保持在一种舒适而自然的姿势。</span></p>
+                            <p><br></p><p><img src="images/1453887079247087.jpg" title="" alt="奥林巴斯CX23显微镜手握目镜" width="440" height="278" border="0" vspace="0" style="width: 440px; height: 278px;">
+                            <span style="">&nbsp;</span><img src="images/1453887097798163.jpg" title="" alt="奥林巴斯CX23显微镜同类产品中≌轻" width="440" height="278" border="0" vspace="0" style="width: 440px; height: 278px;"></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><span style="color: rgb(89, 89, 89); font-size: 18px;"><br></span></p>
+                            <p><span style="font-size: 18px;">
+                                <strong><span style="color: rgb(89, 89, 89);">固定的目镜防止了损坏或丢失</span></strong>
+                                <strong><span style="color: rgb(89, 89, 89);"></span></strong>
+                                <strong><span style="color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);">可以固定目镜，防止搬运过程中损坏或丢失。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><img src="images/1453887122187704.jpg" title="" alt="奥林巴斯CX23显微镜双目镜固定" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><span style="font-size: 18px;">
+                                <strong><span style="color: rgb(89, 89, 89);">用于固定双目位置的锁定栓</span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong>
+                                    <strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong>
+                                    <strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);">可以锁定旋转双目镜筒</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><img src="images/1453887162128453.jpg" title="" alt="可用于固定栓奥林巴斯CX23显微镜" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><span style=""><span style="font-size: 18px;">
+                                <strong><span style="color: rgb(89, 89, 89);">瞳间距和目镜调节</span></strong></span><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong>
+                                <strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);">瞳间距调节范围从48 mm到75 mm，使每个用户可以按照自己的需要进行设置。 与此类似，可以按照用户的身高调节眼点，提供更大的舒适度。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><img src="images/1453887180562177.jpg" title="" alt="奥林巴斯CX23生物显微镜目镜调节" width="440" height="278" border="0" vspace="0" style="width: 440px; height: 278px;">
+                                <span style="">&nbsp;</span><img src="images/1453887187137114.jpg" title="" alt="奥林巴斯CX23生物显微镜目镜切换" width="440" height="278" border="0" vspace="0" style="width: 440px; height: 278px;"></p><p><br></p>
+                            <p><br></p>
+                            <p><span style="font-size: 18px;
+                            "><strong><span style="font-size: 18px; color: rgb(89, 89, 89);">更安全、更耐用的无轨载物台</span></strong></span>
+                                <span style=""><strong><span style=" font-size: 14px; color: rgb(89, 89, 89);"></span></strong>
+                                    <strong><span style=" font-size: 14px; color: rgb(89, 89, 89);"></span></strong><strong><span style=" font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);">无轨载物台和载物台盖增加了安全性，可以实现稳定的长时间操作。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><img src="images/1453887202167342.jpg" title="" alt="奥林巴斯CX23显微镜载物台高清大图" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style="font-size: 18px;">
+                                <strong><span style="color: rgb(89, 89, 89);">安全而顺畅的对焦</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><span style="font-size: 18px;"></span><strong>
+                                    <span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong>
+                                    <strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); ">对焦锁可以防止目镜和标本损坏。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style=" font-size: 18px;"><strong><span style="color: rgb(89, 89, 89);">粗调焦和微调焦控制</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="color: rgb(89, 89, 89); font-size: 14px; ">使用微调或粗调用同轴旋钮，快速对焦标本。 经久性的设计，无论从左侧还是从右侧评估，都可以实现移动和精密控制。</span></p>
+                            <p><span style="color: rgb(89, 89, 89); font-size: 14px; "><br></span></p>
+                            <p><img src="images/1453887222950599.jpg" title="" alt="奥林巴斯CX23显微镜焦距调节功能" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style=" font-size: 18px;"><strong><span style=" color: rgb(89, 89, 89);">左和右屈光度调节</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); ">左右屈光度调节可以实现每只眼睛的≌佳对焦。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style=" font-size: 18px;"><strong><span style=" color: rgb(89, 89, 89);">向内的物镜转换器提供了更大的空间</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); ">对于CX23的向内物镜转换器设计的浸没物镜，可以方便地放置和更换标本，或添加浸油。 这种设计使载物台上方具有更大的空间，距物镜较长的距离还可以保护标本。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style=" font-size: 18px;">
+                                <strong><span style=" color: rgb(89, 89, 89);">电缆存放柜</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); ">CX23背面的存放柜可以很容易地存放使用后的电源线。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><img src="images/1453887238844008.jpg" title="" alt="奥林巴斯CX23显微镜电缆存放柜大图" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style=" font-size: 18px;"><strong><span style=" color: rgb(89, 89, 89);">选配专用木箱</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span>
+                            </p><p><span style="font-size: 14px; color: rgb(89, 89, 89); ">定制的选配木箱可以进一步保持用户的器械。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style=" font-size: 18px;"><strong><span style=" color: rgb(89, 89, 89);">Kensington锁</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); ">当长期存放CX23时，为确保安全，还设计了一个内置安全槽，以固定防盗电缆。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><img src="images/1453887267981944.jpg" title="" alt="奥林巴斯CX23显微镜安全锁" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p>
+                            <p><br></p><p><br></p>
+                            <p><span style=" font-size: 18px;"><strong><span style=" color: rgb(89, 89, 89);">视场数（FN）为20</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); ">CX23使用户能够以比同级别标准显微镜更大的视场数观察到更多的细节。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><img src="images/1453887306553527.jpg" title="" alt="奥林巴斯CX23生物显微镜视场数" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style=" font-size: 18px;"><strong><span style=" color: rgb(89, 89, 89);">出色的图像平坦度和平场消色差物镜</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); ">奥林巴斯CX23显微镜拥有出色的平场消色差物镜，可以在整个视野保持出色的图像平坦度。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style=" font-size: 18px;"><strong><span style=" color: rgb(89, 89, 89);">均匀的LED照明，减少了蓝色</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); ">LED光源提供了20000小时的长寿命，耗电较少。 同时减少蓝色保留了样品的生动颜色。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><img src="images/1453887329114528.jpg" title="" alt="奥林巴斯CX23生物显微镜电源消耗情况" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style=" font-size: 18px;"><strong><span style=" color: rgb(89, 89, 89);">扭力释放功能防止了损坏</span></strong>
+                                <strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); ">内置的扭力释放功能可以防止粗调焦或载物台旋钮上过度用力导致的损坏。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><span style=" font-size: 18px;"><strong><span style=" color: rgb(89, 89, 89);">抗真菌处理</span>
+                            </strong><strong><span style=" color: rgb(89, 89, 89);"></span></strong></span>
+                                <span style=""><strong><span style="font-size: 14px; color: rgb(89, 89, 89);"></span></strong></span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); ">在湿热的环境中使用时，很多显微镜容易受到霉菌和其它真菌的影响。 CX23的物镜、目镜和镜筒都经过了抗真菌处理，能够获得≌佳的观察效果和更大的耐久性。</span></p>
+                            <p><span style="font-size: 14px; color: rgb(89, 89, 89); "><br></span></p>
+                            <p><img src="images/1453887347583395.jpg" title="" alt="奥林巴斯CX23显微镜密封区域" width="680" height="429" border="0" vspace="0" style="width: 680px; height: 429px;"></p>
+                            <p><br></p>
+                            <table table-type="Safe Table" class=""id="specifications-table">
+                                <tbody style="box-sizing: border-box;">
+                                <tr class="split-cell-1-odd split-cell-2-odd split-cell-3-odd firstRow" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-header" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-width: 0px; border-top-style: none; vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">观察方法</span></th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-width: 0px; border-top-style: none; vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">明场</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-width: 0px; border-top-style: none; vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-width: 0px; border-top-style: none; vertical-align: middle; margin: 0px;"><br></td><td class="dt-enum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-width: 0px; border-top-style: none; vertical-align: middle;"><span style="box-sizing: border-box; ">✓</span>
+                                </td>
+                                </tr>
+                                <tr class="split-cell-1-odd split-cell-2-even split-cell-3-even" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-duplicate split-cell-with-hidden" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-width: 0px; border-top-style: none; vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">暗场</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><br></th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-enum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><span style="box-sizing: border-box; ">✓</span>
+                                </td>
+                                </tr>
+                                <tr class="split-cell-1-even split-cell-2-odd split-cell-3-odd" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-header" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">照明器</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">透射柯勒照明器</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">LED灯</span>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-multienum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><ul placeholder="" style="list-style-type: none;" class=" list-paddingleft-2"><li><p><span style="">非凯勒</span></p></li></ul>
+                                </td>
+                                </tr>
+                                <tr class="split-cell-1-odd split-cell-2-even split-cell-3-even" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-header" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">聚焦</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">聚焦装置</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">载物台聚焦</span>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-enum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><span style="box-sizing: border-box; ">✓</span>
+                                </td>
+                                </tr>
+                                <tr class="split-cell-1-odd split-cell-2-odd split-cell-3-odd" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-duplicate split-cell-with-hidden" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-width: 0px; border-top-style: none; vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">手柄行程</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-multienum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><ul placeholder="" style="list-style-type: none;" class=" list-paddingleft-2"><li><p><span style="">15 mm</span></p></li></ul>
+                                </td>
+                                </tr>
+                                <tr class="split-cell-1-odd split-cell-2-even split-cell-3-even" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-duplicate split-cell-with-hidden" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-width: 0px; border-top-style: none; vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">特性</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-string" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><p style="box-sizing: border-box;"><span style="">粗调限位阀&nbsp;&nbsp;<br style="box-sizing: border-box;">粗调旋钮的松紧调节</span></p>
+                                </td>
+                                </tr>
+                                <tr class="split-cell-1-even split-cell-2-odd split-cell-3-odd" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-header" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">物镜转换器</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">手动</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">标准型</span>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-enum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><span style="box-sizing: border-box; ">内置 4孔位</span>
+                                </td>
+                                </tr>
+                                <tr class="split-cell-1-odd split-cell-2-even split-cell-3-even" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-header" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">载物台</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">机械的</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">右（左）手控机械载物台</span>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-multienum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><ul placeholder="" style="list-style-type: none;" class=" list-paddingleft-2"><li><p><span style="">内置</span></p></li><li><p><span style="">X: 76 mm, Y: 30 mm</span></p></li></ul></td>
+                                </tr>
+                                <tr class="split-cell-1-even split-cell-2-odd split-cell-3-odd" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-header" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">聚光镜</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">手动</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">阿贝聚光镜</span>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-enum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><span style="box-sizing: border-box; ">NA1.25/ W.D.- (4 X - 100 X) (内置)</span>
+                                </td>
+                                </tr>
+                                <tr class="split-cell-1-odd split-cell-2-even split-cell-3-even" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-header" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">镜筒</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">标准（FN20）&gt; 双目镜筒</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-enum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><span style="box-sizing: border-box; ">✓</span>
+                                    </td>
+                                </tr>
+                                <tr class="split-cell-1-odd split-cell-2-odd split-cell-3-odd" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-duplicate split-cell-with-hidden" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-width: 0px; border-top-style: none; vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">镜筒倾斜角度</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br></td><td class="dt-multienum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><ul placeholder="" style="list-style-type: none;" class=" list-paddingleft-2"><li><p><span style="">30°</span></p></li></ul></td>
+                                </tr>
+                                <tr class="split-cell-1-odd split-cell-2-even split-cell-3-even" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-duplicate split-cell-with-hidden" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-width: 0px; border-top-style: none; vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">瞳间距调节</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-multienum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><ul placeholder="" style="list-style-type: none;" class=" list-paddingleft-2"><li><p><span style="">48 - 75 mm</span></p></li></ul>
+                                </td>
+                                </tr>
+                                <tr class="split-cell-1-even split-cell-2-odd split-cell-3-odd" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-header" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">外形尺寸</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-enum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><span style="box-sizing: border-box; ">198 (W) x 258 (D) x 384 (H) mm</span>
+                                </td>
+                                </tr>
+                                <tr class="split-cell-1-odd split-cell-2-even split-cell-3-even" style="box-sizing: border-box;">
+                                    <th class="split-cell split-cell-header" split-cell="1" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><span style="">重量</span>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="2" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <th class="split-cell split-cell-header" split-cell="3" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 8px 5px; font-weight: normal; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: top; background-color: rgb(239, 239, 239);"><br>
+                                    </th>
+                                    <td class="table-spacer" style="box-sizing: border-box; border-left-width: 0px; border-left-style: none; padding: 0px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle; margin: 0px;"><br>
+                                    </td>
+                                    <td class="dt-enum" style="box-sizing: border-box; border-left-color: rgb(199, 199, 199); padding: 8px 5px; font-size: 12px; color: rgb(68, 68, 68); line-height: 1.3em; border-top-color: rgb(199, 199, 199); vertical-align: middle;"><span style="box-sizing: border-box; ">约 5.9 kg</span>
+                                </td></tr>
+                                </tbody>
+                            </table>
+                            <p><br><img alt="" src="images/20110921071956_26910.jpg" title=""><br></p>
+                            <div class="item sub-item">
+                                <div class="sub-item-title">技术参数</div>
+                                <table class="table table-bordered table-striped table-hover tech-para-table"  cellpadding="0" cellspacing="0">
+                                    <thead>
+                                    <tr>
+                                        <th class="text-right">参数名称</th>
+                                        <th>参数值</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td class="text-right">光学系统</td>
+                                        <td>UIS2光学系统（无限远校正系统）</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right">照明装置</td>
+                                        <td>内置透射光柯勒照明</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right">调焦系统</td>
+                                        <td>载物台垂直运动，粗调行程每一圈为20mm，微调≌小距离2.5微米</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right">换镜转盘</td>
+                                        <td>固定4孔物镜转盘</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right">观察筒</td>
+                                        <td>双目观察筒，镜筒倾角为30°，瞳间距48-75mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right">聚光镜</td>
+                                        <td>阿贝聚光镜，数值孔径1.25（浸油时），内装式孔径光阑 </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right">物镜</td>
+                                        <td>平场消色差</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right">目镜（10x）</td>
+                                        <td>视场数F.N. 20（防霉处理）</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="item sub-item">
+                                <!-- BOF技术文档 -->
+                                <div class="sub-item-title">技术文档</div>
+                                <div class="files-download">
+                                    暂无产品文档，具体信息请与客服联系
+                                </div>
+                                <!-- EOF技术文档 -->
+                            </div>
+
+                            <div class="item sub-item">
+
+                                <dl class="promises">
+                                    <dt>
+                                        <i class="imgicon-01"></i>
+                                    </dt>
+                                    <dd>
+                                        <strong>正品保证</strong>
+                                        <br>
+                                        所有产品均从品牌方、代理商、品牌分支机构、国际品牌驻中国的办事处等正规渠道采购</dd>
+                                    <dt>
+                                        <i class="imgicon-02"></i>
+                                    </dt>
+                                    <dd>
+                                        <strong>凭票保修</strong>
+                                        <br>
+                                        提供17%增值税专用/普通发票，凭票可在有效期内办理退换货，更能享受维修服务</dd>
+                                    <dt>
+                                        <i class="imgicon-03"></i>
+                                    </dt>
+                                    <dd>
+                                        <strong>专业选型</strong>
+                                        <br>
+                                        更多选型支持，专业客服解答选型难点，为您提供采购服务</dd>
+                                    <dt>
+                                        <i class="imgicon-04"></i>
+                                    </dt>
+                                    <dd>
+                                        <strong>服务省心</strong>
+                                        <br>
+                                        服务周到，省心省力</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="item" style="display: none;">
+                            <table class="table table-bordered table-striped table-hover tech-para-table">
+                                <thead>
+                                <tr>
+                                    <th class="text-right">参数名称</th>
+                                    <th>参数值</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="text-right">光学系统</td>
+                                    <td>UIS2光学系统（无限远校正系统）</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right">照明装置</td>
+                                    <td>内置透射光柯勒照明</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right">调焦系统</td>
+                                    <td>载物台垂直运动，粗调行程每一圈为20mm，微调≌小距离2.5微米</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right">换镜转盘</td>
+                                    <td>固定4孔物镜转盘</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right">观察筒</td>
+                                    <td>双目观察筒，镜筒倾角为30°，瞳间距48-75mm</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right">聚光镜</td>
+                                    <td>阿贝聚光镜，数值孔径1.25（浸油时），内装式孔径光阑 </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right">物镜</td>
+                                    <td>平场消色差</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right">目镜（10x）</td>
+                                    <td>视场数F.N. 20（防霉处理）</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="item" style="display: none;">
+                            <!-- BOF技术文档 -->
+                            <div class="files-download">
+                                暂无产品文档，具体信息请与客服联系
+                            </div>
+                            <!-- EOF技术文档 -->
+                        </div>
+                        <div class="item" style="display: none;">
+                            <p class="after-sale-intro">
+                            </p>
+                            <dl class="promises">
+                                <dt>
+                                    <i class="imgicon-01"></i>
+                                </dt>
+                                <dd>
+                                    <strong>正品保证</strong>
+                                    <br>
+                                    所有产品均从品牌方、代理商、品牌分支机构、国际品牌驻中国的办事处等正规渠道采购</dd>
+                                <dt>
+                                    <i class="imgicon-02"></i>
+                                </dt>
+                                <dd>
+                                    <strong>凭票保修</strong>
+                                    <br>
+                                    提供17%增值税专用/普通发票，凭票可在有效期内办理退换货，更能享受维修服务</dd>
+                                <dt>
+                                    <i class="imgicon-03"></i>
+                                </dt>
+                                <dd>
+                                    <strong>专业选型</strong>
+                                    <br>
+                                    更多选型支持，专业客服解答选型难点，为您提供采购服务</dd>
+                                <dt>
+                                    <i class="imgicon-04"></i>
+                                </dt>
+                                <dd>
+                                    <strong>服务省心</strong>
+                                    <br>
+                                    服务周到，省心省力</dd>
+                            </dl>
+                        </div>
+                        <div class="item" style="display: none;">
+                            <table class="table table-bordered table-striped table-hover options">
+                            </table>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="page-side">
+            <div class="box page-side-box">
+                <div class="box-title">
+                    <a href="category.html" class="more">更多 &gt;</a>
+                    <h5 class="title-text">同类产品</h5>
+                </div>
+                <div class="box-body">
+                    <ul class="product-list product-list-side">
+                        <li><a href="#" title="OLYMPUS奥林巴斯 SZ61临床级体视显微镜(三目)"> <span class="img"><img width="60" height="60" src="images/category/114088_P_1312311739852.jpg"></span>
+                            <h6>OLYMPUS奥林巴斯 SZ61临床级体视显微镜(三目)</h6>
+                            <p class="vcode">订货号：V114088</p>
+                        </a></li>
+                        <li><a href="#" title="奥林巴斯显微数码摄像头DP22"> <span class="img"><img width="60" height="60" src="images/category/14672732593909.jpg"></span>
+                            <h6>奥林巴斯显微数码摄像头DP22</h6>
+                            <p class="vcode">订货号：V252085</p>
+                        </a></li>
+                        <li><a href="#" title="OLYMPUS奥林巴斯CKX53显微镜"> <span class="img"><img width="60" height="60" src="images/category/14741686166659.png"></span>
+                            <h6>OLYMPUS奥林巴斯CKX53显微镜</h6>
+                            <p class="vcode">订货号：V251947</p>
+                        </a></li>
+                        <li><a href="#" title="OLYMPUS奥林巴斯 研究级显微镜 BX53双目"> <span class="img"><img width="60" height="60" src="images/category/14537911181564.png"></span>
+                            <h6>OLYMPUS奥林巴斯 研究级显微镜 BX53双目</h6>
+                            <p class="vcode">订货号：V139182</p>
+                        </a></li>
+                        <li><a href="#" title="OLYMPUS奥林巴斯 研究级显微镜 BX53三目"> <span class="img"><img width="60" height="60" src="images/category/141203_P_1345513349131.jpg"></span>
+                            <h6>OLYMPUS奥林巴斯 研究级显微镜 BX53三目</h6>
+                            <p class="vcode">订货号：V141203</p>
+                        </a></li>
+                        <li><a href="#" title="OLYMPUS奥林巴斯显微镜 CX41生物显微镜(双目)"> <span class="img"><img width="60" height="60" src="images/category/14540353547113.png"></span>
+                            <h6>OLYMPUS奥林巴斯显微镜 CX41生物显微镜(双目)</h6>
+                            <p class="vcode">订货号：V114030</p>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--回到顶部-->
+<div id = "fixedButtons" class="fixed-buttons">
+    <ul>
+        <li><img id = "imgBtn-to-top" src = "images/back_top.png"/></li>
+        <li></li>
+    </ul>
+
+</div>
+
+<!--脚部开始-->
+<div class="footer">
+    <div class="slogen-container">
+        <div class="container">
+            <ul class="slogen">
+                <li>
+                    <i class="imgicon-01"></i>
+                    <b>正品保证</b><br>
+                    <small>正品保障，品牌货源</small>
+                </li>
+                <li>
+                    <i class="imgicon-02"></i>
+                    <b>凭票保修</b><br>
+                    <small>增值税票，退换无忧</small>
+                </li>
+                <li>
+                    <i class="imgicon-03"></i>
+                    <b>专业选型</b><br>
+                    <small>更多选型，服务支持</small>
+                </li>
+                <li>
+                    <i class="imgicon-04"></i>
+                    <b>服务省心</b><br>
+                    <small>服务周到，省心省力</small>
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="container">
+        <div class="navs">
+            <dl>
+                <dt>新手指南</dt>
+                <dd>
+                    <a href="#" target="_blank">用户注册</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>贝登服务</dt>
+                <dd>
+                    <a href="#" target="_blank">服务协议</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>信息安全</dt>
+                <dd>
+                    <a href="#" target="_blank">信息安全</a>
+                    <a href="#" target="_blank">免责声明</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>服务中心</dt>
+                <dd>
+                    <a href="#" target="_blank">隐私声明</a>
+                    <a href="#" target="_blank">法律声明</a>
+                    <a href="#" target="_blank">联系我们</a>
+                    <a href="##" target="_blank">关于我们</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>贝登医疗公众号</dt>
+                <dd>
+                    <img src="images/vedeng-qr.jpg" alt="贝登医疗公众号" style="width: 100px;">
+                </dd>
+            </dl>
+            <div class="clear"></div>
+        </div>
+
+        <div class="about-links">
+            <div class="nav">
+                <a href="#" target="_blank">隐私声明</a>
+                |
+                <a href="#" target="_blank">法律声明</a>
+                |
+                <a href="#" target="_blank">联系我们</a>
+                |
+                <a href="#" target="_blank">关于我们</a>
+                |
+                <a href="#" target="_blank">产品地图</a> | <a href="#" target="_blank">器械数据库</a>
+                #<a href="#" target="_blank">知识库</a> | <a href="#" target="_blank">网站导航</a> |
+                <a href="#" target="_blank">互联网药品信息服务资格证</a><!--  |
+				<a href="http://info.vedeng.com" target="_blank">资讯</a-->
+            </div>
+            <div class="copyright">
+                Copyright © 2010-2016 VEDENG Corporation <a href="#" style="text-decoration:none">(www.vedeng.com)</a> All Rights Reserved ICP备案证书号:<a href="http://www.miibeian.gov.cn/" rel="nofollow" target="_blank">苏ICP备11075436号</a>
+            </div>
+            <div class="links">
+                <ul>
+                    友情链接：
+                    <a href="#" target="_blank">贝登医疗</a>
+                    <a href="#" target="_blank">二手设备</a>
+                    <a href="#" target="_blank">抗癌健康网</a>
+                    <a href="#" target="_blank">环境试验箱</a>
+                    <a href="#" target="_blank">中国医疗器械网</a>
+                    <a href="#" target="_blank"> 医疗器械招商</a>
+                    <a href="#" target="_blank">淘宝刷流量</a>
+                    <a href="#" target="_blank">显微镜</a>
+                    <a href="#" target="_blank">甲醛检测仪</a>
+                    <a href="#" target="_blank">香港服务器</a>
+                    <a href="#" target="_blank">找工业品网</a>
+                    <a href="#" target="_blank">蓝贝</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <ul class="side-toolbar toolbar-side">
+        <li class="back-top" style="display: none;"><a href="#" class="side-toolbar-icon2 side-toolbar-icon-backtop"></a></li>
+    </ul>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/jquery.aimmenu.js" ></script>
+<script src="js/produCtategory.js"></script>
+<script src="js/backTop.js"></script>
+<script type="text/javascript" src="js/magnifier.js" ></script>
+<script>
+/*$(function(){
+    $(".image-lg-view").onmouseenter= function(){
+        setMirror({
+            boxDom:$(".image-lg-view"),
+            bgImg:"images/category/14537950328192.jpg",
+            width:80,
+            height:80,
+            mult:5,
+        });
+    }
+});*/
+function s(id){
+    return document.getElementById(id);
+}
+
+
+window.onload = function(){
+
+    s("image-lg-view").onmouseenter = function(){
+        setMirror({
+            boxDom:s("image-lg-view"),
+            bgImg:"images/category/14537950328192.jpg",
+            width:80,
+            height:80,
+            mult:4.5,
+        });
+    }
+}
+
+</script>

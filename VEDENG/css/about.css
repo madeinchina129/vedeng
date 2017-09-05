@@ -1,0 +1,154 @@
+html,body,ul,li,ol,table,tr,td,dl,dt,dd,img,input,p,div,form,h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border:0;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font-family: "Î¢ÈíÑÅºÚ",Arial;
+    color: #444;
+    font-weight: normal;
+    font-size: 14px;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #444;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: #F60;
+}
+
+.conter{
+    overflow:hidden;
+
+}
+.page-frame:after {
+    clear: both;
+}
+.page-frame .page-side,.page-main
+{
+    float: left;
+}
+
+.page-main {
+
+    width: 930px;
+    margin-right: 10px;
+}
+.page-side {
+    width: 240px;
+}
+
+.art-sideNav {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+}
+
+.art-sideNav .title,
+.art-sideNav .item {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.art-sideNav .title h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 15px;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.art-sideNav .item {
+    position: relative;
+}
+
+.art-sideNav .item .item-link {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222;
+    padding: 12px 0 12px 20px;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: 210px center;
+    background-image: url("../images/arrow-down.png");
+}
+
+.art-sideNav .item .item-active {
+    background-image: url("../images/arrow-up.png");
+    border-left: 3px solid #0099ff;
+    padding-left: 17px;
+    background-position: 210px center;
+}
+
+.art-sideNav .item .item-nochild {
+    background-image: none;
+}
+
+.art-sideNav .item ul {
+    display: none;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.art-sideNav .item ul li {
+    border-bottom: none;
+}
+
+.art-sideNav .item ul li a {
+    text-align: left;
+    font-weight: normal;
+    display: block;
+    padding: 3px 0 3px 25px;
+    font-size: 14px;
+    color: #666;
+    border-left: 4px solid #fff;
+    line-height: 20px;
+    height: 26px;
+    text-decoration: none;
+}
+.art-page-title {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px 10px;
+}
+
+.art-page-title h2 {
+    color: #0099ff;
+    margin: 0;
+    font-size: 16px;
+    padding-left: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    background: url("../images/help-center-title-bg.png") no-repeat left 7px;
+}
+
+.art-page-container {
+    border: 1px solid #e4e4e4;
+    padding: 0 10px;
+}
+
+.artContent-body {
+    padding: 20px 0;
+}
+
+.artContent-body img {
+    max-width: 900px;
+}

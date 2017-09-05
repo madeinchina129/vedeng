@@ -1,0 +1,218 @@
+html,body,ul,li,ol,table,tr,td,dl,dt,dd,img,input,p,div,form,h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border:0;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font-family: "Î¢ÈíÑÅºÚ",Arial;
+    color: #444;
+    font-weight: normal;
+    font-size: 14px;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #444;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: #F60;
+}
+.page-frame{
+    margin-top:10px;
+    overflow: hidden;
+}
+.page-main {
+    width: 940px;
+    margin-right: 10px;
+    float:left;
+}
+.page-side {
+    width: 240px;
+    float:left;
+}
+
+table.filter-table{
+    width:100%;
+    border:1px solid #e4e4e4;
+
+}
+table.filter-table tr td {
+    padding: 5px 8px;
+    font-size: 12px;
+    border-bottom: 1px solid #e4e4e4;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+.table.filter-table tr td.title{
+    width:100px;
+    padding-left: 30px;
+    background:#f2f2f2;
+    line-height:25px;
+    font-weight: normal;
+    color:#666;
+}
+table.filter-table .tag {
+    display: inline-block;
+    padding: 0 4px;
+    margin-right: 20px;
+    white-space: nowrap;
+    color: #666;
+    line-height: 2.5;
+}
+
+table.filter-table .tag:hover {
+    color: #ff8f0f;
+}
+
+table.filter-table .tag-content.shrink {
+    max-height: 90px;
+    overflow: hidden;
+}
+.table .filter-table .tag-content-inbox{
+
+}
+.product-list-table {
+    border: 1px solid #e4e4e4;
+    width:100%;
+}
+
+.product-list-table th {
+    background-color: #f8f8f8;
+    color: #444;
+    font-weight: normal;
+}
+
+.product-list-table thead > tr > th {
+    padding: 5px 10px;
+}
+
+table.product-list-table th.img {
+    display: block;
+}
+
+table.product-list-table th.pname {
+    width: auto;
+}
+
+table.product-list-table th.brand {
+    width: 190px;
+}
+
+table.product-list-table th.xh {
+    width: 130px;
+}
+
+table.product-list-table th.price {
+    width: 70px;
+}
+
+table.product-list-table th.actions {
+    width: 80px;
+}
+
+.product-list-table tbody > tr > td {
+    padding: 10px 10px;
+    line-height: 1.6;
+}
+.product-list-table tbody tr td {
+    border-top:1px solid #e4e4e4;
+    text-align:center;
+}
+
+.product-list-table th.select {
+    text-align: center;
+}
+
+.product-list-table td a {
+    color: #444;
+}
+
+.product-images .product-hot,
+.product-list-table td .product-hot {
+    position: absolute;
+}
+
+.product-list-table td .product-hot {
+    width: 30px;
+    margin-left: 0px;
+}
+
+.product-images .product-hot {
+    width: 60px;
+    margin-left: 0px;
+    z-index: 100;
+}
+
+.product-list-table td a:hover {
+    color: #ff8f0f;
+}
+
+.product-list-table td.select {
+    width: 56px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.product-list-table td.actions {
+    vertical-align: middle;
+}
+.product-list-table tbody > tr > td {
+    vertical-align: top;
+}
+.product-list-table td em.sn {
+    color: #666;
+    font-size: 12px;
+}
+
+.bottom-toolbar .select-all-box {
+    padding-top: 5px;
+    padding-left: 19px;
+}
+
+.bottom-toolbar .toolbar-left {
+    float: left;
+    font-size: 14px;
+}
+
+.bottom-toolbar .toolbar-left .checkbox {
+    font-size: 12px;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.bottom-toolbar .toolbar-left .checkbox input {
+    position: relative;
+    top: -1px;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+.bottom-toolbar .toolbar-left a {
+    vertical-align: middle;
+}
+
+.bottom-toolbar .toobar-right {
+    float: right;
+}
+
+
+

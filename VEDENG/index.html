@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+</head>
+<body>
+    <div class = "header">
+        <div class = "header-bar">
+            <div class = "container">
+                <div class = "header-bar-right">
+                    <ul>  <li><a href = "#">首页</a></li>
+                        <li><a href = "#">我的账号</a></li>
+                        <li><a href = "#">我的关注<em>0</em></a></li>
+                    </ul>
+
+                    <div class = "item item-toggle">
+                        <div id="item-toggle" class="item item-toggle">
+                            <span class="toggle">客户服务 <i class="iconfont iconfont-unfold arrow-up"></i></span>
+                            <ul id = "toggle-list" class="toggle-content toggle-list" style="display: none;">
+                                <li><a href="#">帮助中心</a></li>
+                                <li><a href="#">意见建议</a></li>
+                            </ul>
+                        </div>
+                    <div id = "last-toggle" class="item item-toggle last-child">
+                        <span class="toggle">手机访问 <i class="iconfont iconfont-unfold arrow-up"></i></span>
+                        <div id = "toggle-qr-content" class="toggle-content toggle-qr-content" style="display: none;">
+                            <img src="images/vedeng-qr.jpg" alt="贝登医疗微信号">
+                            <div class="content">关注贝登医疗微信号，随时随地获取贝登服务，阅读最新资讯。</div>
+                        </div>
+                    </div>
+
+
+                    </div>
+                </div>
+                <div class="header-bar-left">
+                    <ul>
+                        <li>欢迎来到贝登医疗</li>
+                        <li><a href="login.html" class="link-outstanding">请登录</a></li>
+                        <li><a href="register.html">免费注册</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <h1 id="logo"><a href="#"><img src="images/site_logo.png" alt="贝登医疗 logo"></a>
+
+                </h1>
+                <div class="header-search">
+                    <div class="form-group">
+                        <form action="#" method="get" id="searchForm" onsubmit="">
+                            <input class="keyword input_text" type="text" name="kw" id="" placeholder="输入产品名称或型号" autocomplete="off" disableautocomplete="" value="">
+                            <input class="search" type="submit" value="搜索">
+                        </form>
+                    </div>
+                    <div id="searchkey_result_1" class="searchkey_result searchkey_result_hidden">
+                        <ul>
+                        </ul>
+                        <div>
+                            <span id="searchkey_result_pad_close_1" class="close">[关闭]</span>
+                        </div>
+                    </div>
+                    <div class="hot-tips">
+                        <ul>
+                            <li><span class="mtitle">热门产品：</span></li>
+                            <li><a href="#">迈瑞生化分析仪</a></li>
+                            <li><a href="#">生物显微镜</a></li>
+                            <li><a href="#">移液枪</a></li>
+                            <li><a href="#">心电图机</a></li>
+                            <li><a href="#">离心机</a></li>
+                            <li><a href="#">酶标仪</a></li>
+                            <li><a href="#">医用冰箱</a></li>
+                            <li><a href="#">灭菌器</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-hotline">
+                    <div class="imgicon-phone">4006-999-569</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+        <!--导航栏-->
+        <div class="header-nav">
+            <div class="container">
+                <div class="ve-row">
+                    <!-- BOF 分类导航 -->
+                    <div id = "header-categories" class="header-categories">
+                        <h3 id = "header-categories-header" class="header-categories-header"><i class="iconfont iconfont-sort"></i>产品分类</h3>
+                        <!--分类导航树-->
+                        <ul id="hide" class="main-categories-list hide" dataurl="/default/category-tree.html" style="display: none;">																																																													<li class="item" id="menuItem_1">
+                            <a href="" class="category-trigger"><i class="iconfont iconfont-cate-1"></i>临床检验</a>
+                            <div class="main-categories-list-content" id="menuSub_1" style="top: -2px; display: none;">
+                                <div class="category-main">
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">血液分析</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>血液细胞分析仪</em>
+                                            </a>
+                                            <a href="#">
+                                                血凝分析仪                                   								   </a>
+                                            <a href="#">
+                                                <em>电解质分析仪</em>
+                                            </a>
+                                            <a href="#">
+                                                血沉仪                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">生化/尿液</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>全自动生化分析仪</em>
+                                            </a>
+                                            <a href="#">
+                                                半自动生化分析仪                                   								   </a>
+                                            <a href="#">
+                                                <em>尿液分析仪</em>
+                                            </a>
+                                            <a href="#">
+                                                血脂仪                                   								   </a>
+                                            <a href="#">
+                                                尿液试纸条                                   								   </a>
+                                            <a href="#">
+                                                样品杯                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">免疫分析</a>
+                                        </dt>
+                                        <dd>
+                                            <a href="#">
+                                                <em>酶标仪</em>
+                                            </a>
+                                            <a href="#">
+                                                洗板机                                   								   </a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="sub-category">
+                                        <dt>
+                                            <a href="#">体检机</a>
+                                        </dt>
+                                        <dd>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+                        </li>
+                            <li class="item" id="menuItem_2">
+                                <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-2"></i>电子超声</a>
+                                <div class="main-categories-list-content" id="menuSub_2" style="top: -2px; display: none;">
+                                    <div class="category-main">
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">除颤起搏</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    除颤监护仪                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">心电诊断</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>心电图机</em>
+                                                </a>
+                                                <a href="#">
+                                                    心电图工作站                                   								   </a>
+                                                <a href="#">
+                                                    心电工作站                                   								   </a>
+                                                <a href="#">
+                                                    脑电测量仪                                   								   </a>
+                                                <a href="#">
+                                                    配件                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">体征监护</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>多参数监护仪</em>
+                                                </a>
+                                                <a href="#">
+                                                    健康一体机                                   								   </a>
+                                                <a href="#">
+                                                    母婴监护仪                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">超声诊断</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>黑白超</em>
+                                                </a>
+                                                <a href="#">
+                                                    彩超                                   								   </a>
+                                                <a href="#">
+                                                    经颅多普勒血流仪                                   								   </a>
+                                                <a href="#">
+                                                    骨密度仪                                   								   </a>
+                                                <a href="#">
+                                                    多普勒胎心仪                                   								   </a>
+                                                <a href="#">
+                                                    胎儿/母婴监护                                   								   </a>
+                                                <a href="#">
+                                                    配件                                   								   </a>
+                                                <a href="#">
+                                                    眼科超声                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">体温/血压计</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    耳温计                                   								   </a>
+                                                <a href="#">
+                                                    非接触额温计                                   								   </a>
+                                                <a href="#">
+                                                    医用电子血压计                                   								   </a>
+                                                <a href="#">
+                                                    全自动血压计                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">普通诊查</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    听诊器                                   								   </a>
+                                                <a href="#">
+                                                    体温计                                   								   </a>
+                                                <a href="#">
+                                                    手电                                   								   </a>
+                                                <a href="#">
+                                                    听力检测                                   								   </a>
+                                                <a href="#">
+                                                    肺功能仪                                   								   </a>
+                                                <a href="#">
+                                                    检耳镜                                   								   </a>
+                                                <a href="#">
+                                                    检眼镜                                   								   </a>
+                                                <a href="#">
+                                                    叩诊锤                                   								   </a>
+                                                <a href="#">
+                                                    雾化器                                   								   </a>
+                                                <a href="#">
+                                                    血压表                                   								   </a>
+                                                <a href="#">
+                                                    人体成分分析仪                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">台车</a>
+                                            </dt>
+                                            <dd>
+                                            </dd>
+                                        </dl>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item" id="menuItem_3">
+                                <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-3"></i>实验仪器</a>
+                                <div class="main-categories-list-content" id="menuSub_3" style="top: -2px; display: none;">
+                                    <div class="category-main">
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">生命科学</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>显微镜</em>
+                                                </a>
+                                                <a href="#">
+                                                    <em>PCR仪</em>
+                                                </a>
+                                                <a href="#">
+                                                    细胞计数仪                                   								   </a>
+                                                <a href="#">
+                                                    电泳仪                                   								   </a>
+                                                <a href="#">
+                                                    凝胶成像仪                                   								   </a>
+                                                <a href="#">
+                                                    流式细胞仪                                   								   </a>
+                                                <a href="#">
+                                                    自动化移液工作站                                   								   </a>
+                                                <a href="#">
+                                                    摄像头                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">温度控制</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>冰箱</em>
+                                                </a>
+                                                <a href="#">
+                                                    <em>液氮罐</em>
+                                                </a>
+                                                <a href="#">
+                                                    细胞培养箱                                   								   </a>
+                                                <a href="#">
+                                                    培养箱                                   								   </a>
+                                                <a href="#">
+                                                    干燥箱                                   								   </a>
+                                                <a href="#">
+                                                    制冰机                                   								   </a>
+                                                <a href="#">
+                                                    水浴和干浴                                   								   </a>
+                                                <a href="#">
+                                                    配件                                   								   </a>
+                                                <a href="#">
+                                                    电热板                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">混合破碎</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    搅拌器                                   								   </a>
+                                                <a href="#">
+                                                    混合器                                   								   </a>
+                                                <a href="#">
+                                                    摇床                                   								   </a>
+                                                <a href="#">
+                                                    分散机                                   								   </a>
+                                                <a href="#">
+                                                    超声波破碎仪                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">分离浓缩</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>离心机</em>
+                                                </a>
+                                                <a href="#">
+                                                    真空泵                                   								   </a>
+                                                <a href="#">
+                                                    离心浓缩仪                                   								   </a>
+                                                <a href="#">
+                                                    旋转蒸发仪                                   								   </a>
+                                                <a href="#">
+                                                    冷冻干燥机                                   								   </a>
+                                                <a href="#">
+                                                    配件                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">净化消毒</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    灭菌器                                   								   </a>
+                                                <a href="#">
+                                                    纯水机                                   								   </a>
+                                                <a href="#">
+                                                    超净工作台                                   								   </a>
+                                                <a href="#">
+                                                    <em>生物安全柜</em>
+                                                </a>
+                                                <a href="#">
+                                                    超声波清洗机                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">物性和电化学</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    实验天平                                   								   </a>
+                                                <a href="#">
+                                                    粘度计                                   								   </a>
+                                                <a href="#">
+                                                    分光光度计                                   								   </a>
+                                                <a href="#">
+                                                    PH/电导率仪                                   								   </a>
+                                                <a href="#">
+                                                    色谱仪                                   								   </a>
+                                                <a href="#">
+                                                    <em>火焰光度计</em>
+                                                </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">实验耗材</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>移液器</em>
+                                                </a>
+                                                <a href="#">
+                                                    瓶口分液器                                   								   </a>
+                                                <a href="#">
+                                                    移液吸头                                   								   </a>
+                                                <a href="#">
+                                                    移液管                                   								   </a>
+                                                <a href="#">
+                                                    PCR管                                   								   </a>
+                                                <a href="#">
+                                                    冻存管                                   								   </a>
+                                                <a href="#">
+                                                    离心管                                   								   </a>
+                                                <a href="#">
+                                                    培养皿                                   								   </a>
+                                                <a href="#">
+                                                    培养瓶                                   								   </a>
+                                                <a href="#">
+                                                    封口膜                                   								   </a>
+                                                <a href="#">
+                                                    过滤器                                   								   </a>
+                                                <a href="#">
+                                                    <em>试剂瓶</em>
+                                                </a>
+                                                <a href="#">
+                                                    冻存盒                                   								   </a>
+                                            </dd>
+                                        </dl>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item" id="menuItem_4">
+                                <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-4"></i>医用光学</a>
+                                <div class="main-categories-list-content" id="menuSub_4" style="top: -2px; display: none;">
+                                    <div class="category-main">
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">眼科检查</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    裂隙灯                                   								   </a>
+                                                <a href="#">
+                                                    验光仪                                   								   </a>
+                                                <a href="#">
+                                                    视力筛查仪                                   								   </a>
+                                                <a href="#">
+                                                    眼压计                                   								   </a>
+                                                <a href="#">
+                                                    检眼镜                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">医用内窥镜</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    耳鼻喉镜                                   								   </a>
+                                                <a href="#">
+                                                    <em>呼吸系统内镜</em>
+                                                </a>
+                                                <a href="#">
+                                                    腹腔镜                                   								   </a>
+                                                <a href="#">
+                                                    妇科内镜                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">手术显微</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>手术显微镜</em>
+                                                </a>
+                                            </dd>
+                                        </dl>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item" id="menuItem_6">
+                                <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-6"></i>医学影像</a>
+                                <div class="main-categories-list-content" id="menuSub_6" style="top: -2px; display: none;">
+                                    <div class="category-main">
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">普放设备</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>数字X射线摄影系统（DR）</em>
+                                                </a>
+                                                <a href="#">
+                                                    相机                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">X射线防护</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    防护服                                   								   </a>
+                                                <a href="#">
+                                                    防护巾                                   								   </a>
+                                                <a href="#">
+                                                    防护裤头                                   								   </a>
+                                                <a href="#">
+                                                    护腿                                   								   </a>
+                                                <a href="#">
+                                                    铅胶帽                                   								   </a>
+                                                <a href="#">
+                                                    铅胶围领                                   								   </a>
+                                                <a href="#">
+                                                    防护眼镜                                   								   </a>
+                                                <a href="#">
+                                                    防护面罩                                   								   </a>
+                                                <a href="#">
+                                                    防护手套                                   								   </a>
+                                                <a href="#">
+                                                    护臂                                   								   </a>
+                                                <a href="#">
+                                                    防护屏                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">配件</a>
+                                            </dt>
+                                            <dd>
+                                            </dd>
+                                        </dl>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item" id="menuItem_7">
+                                <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-7"></i>手术急救</a>
+                                <div class="main-categories-list-content" id="menuSub_7" style="top: -2px; display: none;">
+                                    <div class="category-main">
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">手术设备</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    手术台                                   								   </a>
+                                                <a href="#">
+                                                    产床                                   								   </a>
+                                                <a href="#">
+                                                    耳鼻喉治疗台                                   								   </a>
+                                                <a href="#">
+                                                    无影灯                                   								   </a>
+                                                <a href="#">
+                                                    手术头灯                                   								   </a>
+                                                <a href="#">
+                                                    麻醉机                                   								   </a>
+                                                <a href="#">
+                                                    呼吸机                                   								   </a>
+                                                <a href="#">
+                                                    高频电刀                                   								   </a>
+                                                <a href="#">
+                                                    吊塔                                   								   </a>
+                                                <a href="#">
+                                                    手术灯                                   								   </a>
+                                                <a href="#">
+                                                    医用平车                                   								   </a>
+                                                <a href="#">
+                                                    手术床                                   								   </a>
+                                                <a href="#">
+                                                    手术固定架                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">复苏供养</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    医用制氧机                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">输注辅助</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>注射泵</em>
+                                                </a>
+                                                <a href="#">
+                                                    输液泵                                   								   </a>
+                                                <a href="#">
+                                                    营养泵                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">吸引/洗胃</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    负压吸引器                                   								   </a>
+                                                <a href="#">
+                                                    吸痰器                                   								   </a>
+                                                <a href="#">
+                                                    洗胃机                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">医用激光</a>
+                                            </dt>
+                                            <dd>
+                                            </dd>
+                                        </dl>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item" id="menuItem_8">
+                                <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-8"></i>消毒灭菌</a>
+                                <div class="main-categories-list-content" id="menuSub_8" style="top: -2px; display: none;">
+                                    <div class="category-main">
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">灭菌设备</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    压力蒸汽灭菌器                                   								   </a>
+                                                <a href="#">
+                                                    灭菌器配件                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">灭菌监测</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>化学指示胶带</em>
+                                                </a>
+                                                <a href="#">
+                                                    <em>生物指示剂</em>
+                                                </a>
+                                                <a href="#">
+                                                    BD测试纸/包                                   								   </a>
+                                                <a href="#">
+                                                    生物阅读器                                   								   </a>
+                                                <a href="#">
+                                                    化学指示卡                                   								   </a>
+                                                <a href="#">
+                                                    化学指示标签                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">灭菌包装</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    医用无纺布                                   								   </a>
+                                                <a href="#">
+                                                    皱纹纸                                   								   </a>
+                                                <a href="#">
+                                                    纸塑包装袋                                   								   </a>
+                                                <a href="#">
+                                                    医用封口机                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">清洗耗材</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    多酶清洗剂                                   								   </a>
+                                                <a href="#">
+                                                    润滑油、防锈剂                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">空气消毒机</a>
+                                            </dt>
+                                            <dd>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">清洗设备</a>
+                                            </dt>
+                                            <dd>
+                                            </dd>
+                                        </dl>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item" id="menuItem_9">
+                                <a href="#" class="category-trigger"><i class="iconfont iconfont-cate-9"></i>医用耗材</a>
+                                <div class="main-categories-list-content" id="menuSub_9" style="top: -2px; display: none;">
+                                    <div class="category-main">
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">缝合线</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    可吸收缝合线                                   								   </a>
+                                                <a href="#">
+                                                    不可吸收缝合线                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">包扎敷料</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    创口贴                                   								   </a>
+                                                <a href="#">
+                                                    纱布绷带                                   								   </a>
+                                                <a href="#">
+                                                    自粘敷料                                   								   </a>
+                                                <a href="#">
+                                                    医用胶带                                   								   </a>
+                                                <a href="#">
+                                                    棉片棉球                                   								   </a>
+                                                <a href="#">
+                                                    输液贴                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">功能敷料</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    水胶敷料                                   								   </a>
+                                                <a href="#">
+                                                    藻酸盐敷料                                   								   </a>
+                                                <a href="#">
+                                                    含银敷料                                   								   </a>
+                                                <a href="#">
+                                                    泡沫敷料                                   								   </a>
+                                                <a href="#">
+                                                    透明敷料                                   								   </a>
+                                                <a href="#">
+                                                    其他敷料                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">防护隔离</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>医用口罩</em>
+                                                </a>
+                                                <a href="#">
+                                                    医用手套                                   								   </a>
+                                                <a href="#">
+                                                    衣物防护                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">导管/引流</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    导尿管/集尿袋                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">胶片/打印机</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    医用胶片                                   								   </a>
+                                                <a href="#">
+                                                    医用打印机                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">打印纸</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    <em>心电图纸</em>
+                                                </a>
+                                                <a href="#">
+                                                    脑电图纸                                   								   </a>
+                                                <a href="#">
+                                                    监护仪纸                                   								   </a>
+                                                <a href="#">
+                                                    B超打印纸                                   								   </a>
+                                                <a href="#">
+                                                    其他打印纸                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">手术耗材</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="#">
+                                                    手术巾                                   								   </a>
+                                                <a href="#">
+                                                    手术切口层保护器                                   								   </a>
+                                                <a href="#">
+                                                    医用敷巾                                   								   </a>
+                                                <a href="#">
+                                                    吸水垫                                   								   </a>
+                                                <a href="#">
+                                                    医用包                                   								   </a>
+                                                <a href="#">
+                                                    免缝胶带                                   								   </a>
+                                                <a href="#">
+                                                    手术薄膜                                   								   </a>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">一次性医用耗材</a>
+                                            </dt>
+                                            <dd>
+                                            </dd>
+                                        </dl>
+                                        <dl class="sub-category">
+                                            <dt>
+                                                <a href="#">采血管</a>
+                                            </dt>
+                                            <dd>
+                                            </dd>
+                                        </dl>
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!--分类导航树结束-->
+                    </div>
+
+                    <!-- EOF 分类导航 -->
+                    <ul class="main-nav">
+                        <li class="active"><a href="#">首页</a></li>
+                        <li><a href="#">找产品</a></li>
+                        <li><a href="#">找品牌</a></li>
+                        <li><a href="#">关于我们</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-banner部分->
+    <div class = "swiper-container">
+        <div class = "swiper-wrapper">
+            <div class = "swiper-slide"><img src = "images/15022437355599.jpg"></div>
+            <div class = "swiper-slide"><img src = "images/15022437458750.jpg"></div>
+            <div class = "swiper-slide"><img src = "images/15022442376727.jpg"></div>
+            <div class = "swiper-slide"><img src = "images/15022445996411.jpg"></div>
+            <div class = "swiper-slide"><img src = "images/15024363771957.jpg"></div>
+        </div>
+    </div>
+    <div class="content index-page">
+    <div class="ad-box">
+        <div class="container">
+
+            <div class="right-box">
+                <!--登录前-->
+                <div class="hello">亲，上午好！</div>
+                <div class="login-box">
+                    <ul>
+                        <li class="login"><a href="login.html">登录</a></li>
+                        <li class="register"><a href="register.html">免费注册</a></li>
+                    </ul>
+                </div>
+                <!--登录前 end-->
+                <div class="message-box">
+                    <ul>
+                        <li class="title">系统公告</li>
+                        <li><a href="#" title="春节假期及暂停发货通知" target="_blank">[公告]春节假期及暂停发货通知</a></li>
+                        <li><a href="#" title="2017，贝登医疗新春祝福视频！" target="_blank">[公告]2017，贝登医疗新春祝福视频！</a></li>
+                        <li><a href="#" title="2016年国庆节放假通知" target="_blank">[公告]2016年国庆节放假通知</a></li>
+                        <li><a href="#" title="贝登医疗携300人“橙衣军团”，亮相2016上海CMEF医疗器械展" target="_blank">[活动]贝登医疗携300人“橙衣军团”，亮相2016上海CMEF医疗器械展</a></li>
+                    </ul>
+                </div>
+                <div class="safe-box">
+                    <ul>
+                        <li><i class="imgicon-01"></i>正品保证</li>
+                        <li><i class="imgicon-02"></i>凭票保修</li>
+                        <li><i class="imgicon-03"></i>专业选型</li>
+                        <li class="last-child"><i class="imgicon-04"></i>服务省心</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="recommend">
+            <div class="container">
+                <div class="title">
+                    优势产品
+                </div>
+                <div class="content">
+                    <dl><a href="##" target="_blank" title="血球分析仪"><dd><img src="images/recommend/recommend-1.jpg" alt="血球分析仪"></dd><dt>血球分析仪</dt></a></dl>
+                    <dl><a href="##" target="_blank" title="生化分析仪"><dd><img src="images/recommend/recommend-2.jpg" alt="生化分析仪"></dd><dt>生化分析仪</dt></a></dl>
+                    <dl><a href="##" target="_blank" title="电解质分析仪"><dd><img src="images/recommend/recommend-3.jpg" alt="电解质分析仪"></dd><dt>电解质分析仪</dt></a></dl>
+                    <dl><a href="##" target="_blank" title="尿液分析仪"><dd><img src="images/recommend/recommend-4.jpg" alt="尿液分析仪"></dd><dt>尿液分析仪</dt></a></dl>
+                    <dl><a href="##" target="_blank" title="心电图机"><dd><img src="images/recommend/recommend-5.jpg" alt="心电图机"></dd><dt>心电图机</dt></a></dl>
+                    <dl><a href="##" target="_blank" title="超声"><dd><img src="images/recommend/recommend-6.jpg" alt="超声"></dd><dt>超声</dt></a></dl>
+                    <dl><a href="##" target="_blank" title="监护仪"><dd><img src="images/recommend/recommend-7.jpg" alt="监护仪"></dd><dt>监护仪</dt></a></dl>
+                    <dl class="last-child"><a href="#" target="_blank" title="注射泵"><dd><img src="images/recommend/recommend-8.jpg" alt="注射泵"></dd><dt>注射泵</dt></a></dl>
+                    <div class="clear"></div>
+                    <dl><a href="#" target="_blank" title="显微镜"><dd><img src="images/recommend/recommend-9.jpg" alt="显微镜"></dd><dt>显微镜</dt></a></dl>
+                    <dl><a href="#" target="_blank" title="移液器"><dd><img src="images/recommend/recommend-10.jpg" alt="移液器"></dd><dt>移液器</dt></a></dl>
+                    <dl><a href="#" target="_blank" title="酶标仪"><dd><img src="images/recommend/recommend-11.jpg" alt="酶标仪"></dd><dt>酶标仪</dt></a></dl>
+                    <dl><a href="#" target="_blank" title="液氮罐"><dd><img src="images/recommend/recommend-12.jpg" alt="液氮罐"></dd><dt>液氮罐</dt></a></dl>
+                    <dl><a href="#" target="_blank" title="pcr仪"><dd><img src="images/recommend/recommend-13.jpg" alt="pcr仪"></dd><dt>pcr仪</dt></a></dl>
+                    <dl><a href="#" target="_blank" title="离心机"><dd><img src="images/recommend/recommend-14.jpg" alt="离心机"></dd><dt>离心机</dt></a></dl>
+                    <dl><a href="#" target="_blank" title="医用冰箱"><dd><img src="images/recommend/recommend-15.jpg" alt="医用冰箱"></dd><dt>医用冰箱</dt></a></dl>
+                    <dl class="last-child"><a href="#" target="_blank" title="生物安全柜"><dd><img src="images/recommend/recommend-16.jpg" alt="生物安全柜"></dd><dt>生物安全柜</dt></a></dl>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="hot">
+            <div class="container">
+                <div class="left">
+                    <div class="title">
+                        热门品牌
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li><a href="#" target="_blank"><img src="images/brand-1.jpg" alt="迈瑞"></a></li>
+                            <li><a href="#" target="_blank"><img src="images/brand-6.jpg" alt="谊安"></a></li>
+                            <li><a href="#" target="_blank"><img src="images/brand-3.jpg" alt="艾本德"></a></li>
+                            <li><a href="#" target="_blank"><img src="images/brand-4.jpg" alt="奥林巴斯"></a></li>
+                            <li><a href="#" target="_blank"><img src="images/brand-7.jpg" alt="万东"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="brand">
+                        <div class="title"></div>
+                        <div class="content">
+                            <ul>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">湘仪</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14998316234191.png" alt="湘仪">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Aeonmed谊安</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14949151743405.jpg" alt="Aeonmed谊安">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">迈瑞Mindray</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14537803114641.jpg" alt="迈瑞Mindray">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">万东医疗</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14998313257633.png" alt="万东医疗">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Eppendorf艾本德</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14510276374219.jpg" alt="Eppendorf艾本德">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">翔宇</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14998355481586.jpg" alt="翔宇">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">钱璟</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14990500388792.jpg" alt="钱璟">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">六六视觉</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/1421949837237468182.JPG" alt="六六视觉">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">龙马负图longmafutu</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14909274038116.png" alt="龙马负图longmafutu">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">一恒YIHENG</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/1316219655818709940.png" alt="一恒YIHENG">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">IKA仪科</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14537811557696.jpg" alt="IKA仪科">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Bio-Rad伯乐</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/1317229802805660314.jpg" alt="Bio-Rad伯乐">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">OLYMPUS奥林巴斯</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14536986514742.png" alt="OLYMPUS奥林巴斯">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">SIGMA希格玛</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/1317246289314116728.JPG" alt="SIGMA希格玛">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">邦健</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14537016407836.jpg" alt="邦健">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">MVE</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/1317255127482760263.jpg" alt="MVE">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">3M</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14510281046366.jpg" alt="3M">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">海尔Haier</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/1316218486415948131.PNG" alt="海尔Haier">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Panasonic松下</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14537807201507.jpg" alt="Panasonic松下">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Thermo赛默飞世尔</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14510275447090.jpg" alt="Thermo赛默飞世尔">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">理邦EDAN</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14998301494161.jpg" alt="理邦EDAN">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Axygen爱思进</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/1435012248627992620.jpg" alt="Axygen爱思进">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Sartorius赛多利斯</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/1318814814531599714.jpg" alt="Sartorius赛多利斯">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">和泰Hitech</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14942919535226.png" alt="和泰Hitech">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Taylor-Wharton泰莱华顿</span>
+                                        <img style="width:110px; height: 45px;"  src="images/uploads/brand/1317248029852544188.jpg" src="images/112x45.gif" alt="Taylor-Wharton泰莱华顿">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Smiths史密斯</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/1421096711175030206.jpg" alt="Smiths史密斯">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Biohit芬兰百得</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/1352623290474182914.jpg" alt="Biohit芬兰百得">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">Gilson吉尔森</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14998386362735.jpg" alt="Gilson吉尔森">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">金凤</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14537761507417.png" alt="金凤">
+                                    </a>
+                                </li>
+                                <li class="brand-list">
+                                    <a href="#" target="_blank" class="img img-box">
+                                        <span class="name ">苏净安泰AIRTECH</span>
+                                        <img style="width:110px; height: 45px;" src="images/uploads/brand/14998384659119.jpg" alt="苏净安泰AIRTECH">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div id = "newsTabChange" class="news tab-change">
+                        <div class="tab">
+                            <ul>
+                                <li id = "titleSelected" class="title  selected">品牌百科</li>
+                                <li id = "titleLast" class="title last">知识百科</li>
+                            </ul>
+                        </div>
+                        <ul id = "contentBaike" class="content baike">
+                            <li>
+                                <a href="#" target="_blank" title="SANYO三洋 ">SANYO三洋 </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="优利特URI">优利特URI</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="NIKON尼康">NIKON尼康</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="鱼跃医疗yuwell">鱼跃医疗yuwell</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="SIGMA希格玛">SIGMA希格玛</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="湘仪公司">湘仪公司</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Eppendorf艾本德">Eppendorf艾本德</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="thermo热电">thermo热电</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="SciCan赛康">SciCan赛康</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="六六视觉">六六视觉</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="IKA仪科">IKA仪科</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="一恒YIHENG">一恒YIHENG</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Tuttnauer腾氏">Tuttnauer腾氏</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Sartorius赛多利斯">Sartorius赛多利斯</a>
+                            </li>
+                            <li class="clear"></li>
+                            <li class="more-box"><a href="#" class="more">更多&gt;</a></li>
+                        </ul>
+                        <ul id = "contentLast" class="content" style="display: none;">
+                            <li>
+                                <a href="#" target="_blank" title="动态DR是如何做到精准诊断的呢？">动态DR是如何做到精准诊断的呢？</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="迈瑞监护仪维修3例">迈瑞监护仪维修3例</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Eppendorf艾本德移液器如何区分真假？">Eppendorf艾本德移液器如何区分真假？</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="呼吸机主机内部保养">呼吸机主机内部保养</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="迈瑞系列血细胞分析仪常见的故障和维修方法">迈瑞系列血细胞分析仪常见的故障和维修方法</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="仪器选购--全自动血凝分析仪的选择与性能评价">仪器选购--全自动血凝分析仪的选择与性能评价</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="血凝分析仪在各科室的应用">血凝分析仪在各科室的应用</a>
+                            </li>
+                            <li><a href="#" class="more">更多&gt;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    </div>
+
+    <!--回到顶部-->
+    <div id = "fixedButtons" class="fixed-buttons">
+        <ul>
+            <li><img id = "imgBtn-to-top" src = "images/back_top.png"/></li>
+            <li></li>
+        </ul>
+
+    </div>
+
+
+    <!--脚部开始-->
+    <div class="footer">
+
+        <div class="slogen-container">
+            <div class="container">
+                <ul class="slogen">
+                    <li>
+                        <i class="imgicon-01"></i>
+                        <b>正品保证</b><br>
+                        <small>正品保障，品牌货源</small>
+                    </li>
+                    <li>
+                        <i class="imgicon-02"></i>
+                        <b>凭票保修</b><br>
+                        <small>增值税票，退换无忧</small>
+                    </li>
+                    <li>
+                        <i class="imgicon-03"></i>
+                        <b>专业选型</b><br>
+                        <small>更多选型，服务支持</small>
+                    </li>
+                    <li>
+                        <i class="imgicon-04"></i>
+                        <b>服务省心</b><br>
+                        <small>服务周到，省心省力</small>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="container">
+            <div class="navs">
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd>
+                        <a href="#" target="_blank">用户注册</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>贝登服务</dt>
+                    <dd>
+                        <a href="#" target="_blank">服务协议</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>信息安全</dt>
+                    <dd>
+                        <a href="#" target="_blank">信息安全</a>
+                        <a href="#" target="_blank">免责声明</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>服务中心</dt>
+                    <dd>
+                        <a href="#" target="_blank">隐私声明</a>
+                        <a href="#" target="_blank">法律声明</a>
+                        <a href="#" target="_blank">联系我们</a>
+                        <a href="##" target="_blank">关于我们</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>贝登医疗公众号</dt>
+                    <dd>
+                        <img src="images/vedeng-qr.jpg" alt="贝登医疗公众号" style="width: 100px;">
+                    </dd>
+                </dl>
+                <div class="clear"></div>
+            </div>
+
+            <div class="about-links">
+                <div class="nav">
+                    <a href="#" target="_blank">隐私声明</a>
+                    |
+                    <a href="#" target="_blank">法律声明</a>
+                    |
+                    <a href="#" target="_blank">联系我们</a>
+                    |
+                    <a href="#" target="_blank">关于我们</a>
+                    |
+                    <a href="#" target="_blank">产品地图</a> | <a href="#" target="_blank">器械数据库</a>
+                    #<a href="#" target="_blank">知识库</a> | <a href="#" target="_blank">网站导航</a> |
+                    <a href="#" target="_blank">互联网药品信息服务资格证</a><!--  |
+				<a href="http://info.vedeng.com" target="_blank">资讯</a-->
+                </div>
+                <div class="copyright">
+                    Copyright © 2010-2016 VEDENG Corporation <a href="#" style="text-decoration:none">(www.vedeng.com)</a> All Rights Reserved ICP备案证书号:<a href="http://www.miibeian.gov.cn/" rel="nofollow" target="_blank">苏ICP备11075436号</a>
+                </div>
+                <div class="links">
+                    <ul>
+                        友情链接：
+                        <a href="#" target="_blank">贝登医疗</a>
+                        <a href="#" target="_blank">二手设备</a>
+                        <a href="#" target="_blank">抗癌健康网</a>
+                        <a href="#" target="_blank">环境试验箱</a>
+                        <a href="#" target="_blank">中国医疗器械网</a>
+                        <a href="#" target="_blank"> 医疗器械招商</a>
+                        <a href="#" target="_blank">淘宝刷流量</a>
+                        <a href="#" target="_blank">显微镜</a>
+                        <a href="#" target="_blank">甲醛检测仪</a>
+                        <a href="#" target="_blank">香港服务器</a>
+                        <a href="#" target="_blank">找工业品网</a>
+                        <a href="#" target="_blank">蓝贝</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="side-toolbar toolbar-side">
+            <li class="back-top" style="display: none;"><a href="#" class="side-toolbar-icon2 side-toolbar-icon-backtop"></a></li>
+        </ul>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/jquery.aimmenu.js" ></script>
+<script src="dist/js/swiper.min.js"></script>
+<script src="js/produCtategory.js"></script>
+<script src="js/index.js"></script>
+<script src="js/backTop.js"></script>
+<script type="text/javascript">
+    /*function $(id){
+        return document.getElementById(id);
+    }*/
+    /*$(function(){
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 50) {
+                $('#imgBtn-to-top').fadeIn();
+            }
+            else {
+                $('#imgBtn-to-top').fadeOut();
+            }
+        });
+        SetFixedButtonsAction();
+    }());
+    function SetFixedButtonsAction() {
+        $("#imgBtn-to-top").css("display","none");
+        window.onscroll = function(){
+            console.log(1)
+            $("#imgBtn-to-top").css("display","block");
+
+        }
+            $("#imgBtn-to-top").on("click", function () {
+                $("#imgBtn-to-top").css("backgroundColor","red");
+
+                var _ele = document.documentElement.scrollTop ? document.documentElement : document.body;
+
+                $(_ele).animate({"scrollTop": 0}, 300,function(){
+
+                    $("#imgBtn-to-top").css("display","none");
+                });
+
+            });
+    }*/
+    var mySwiper = new Swiper ('.swiper-container', {
+        // direction: 'vertical',//是否垂直
+        loop: true,//是否可以循环拖动
+        autoplay:3000,//是否自动播放
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        paginationBulletRender: function (swiper, index, className) {
+            return '<span class="' + className + '">' + (index + 1) + '</span>';
+        }
+    })
+
+</script>
