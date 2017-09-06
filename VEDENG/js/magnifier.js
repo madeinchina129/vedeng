@@ -76,7 +76,7 @@ class Mirror{
 		
 		this.boxDom.appendChild(this.mirrorDom);
 		
-		this.boxImgDom.cssStr+="left:"+this.boxDom.offsetWidth+"px;width:"+this.width*this.mult+"px;height:"+this.height*this.mult+"px;";
+		this.boxImgDom.cssStr+="left:"+(this.boxDom.offsetWidth+10)+"px;width:"+this.width*this.mult+"px;height:"+this.height*this.mult+"px;";
 		this.boxImgDom.style.cssText = this.boxImgDom.cssStr;
 		this.boxDom.appendChild(this.boxImgDom);
 		
@@ -90,7 +90,7 @@ class Mirror{
 	initEvent(){
 			
 			var obj = this;
-			obj.boxDom.onmouseover = function(){
+			obj.boxDom.onmouseenter = function(){
 				obj.mirrorDom.style.display = "block";	
 				obj.boxImgDom.style.display = "block";
 				}
@@ -119,9 +119,13 @@ class Mirror{
 				obj.mirrorDom.style.top = top+"px";
 				
 				obj.oImgDom.style.left = -1*obj.mult*left+"px";
-				obj.oImgDom.style.top= -1*obj.mult*top+"px";	
+				obj.oImgDom.style.top= -1*obj.mult*top+"px";
+                if(evt.pageX>obj.boxDom.offsetLeft+obj.boxDom.offsetWidth){
+                    obj.mirrorDom.style.display = "none";
+                    obj.boxImgDom.style.display = "none";
+                }
 			}
-			obj.boxDom.onmouseout = function(){
+			obj.boxDom.onmouseleave = function(){
 				obj.mirrorDom.style.display = "none";
 				obj.boxImgDom.style.display = "none";
 			}

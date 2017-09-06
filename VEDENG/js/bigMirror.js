@@ -46,7 +46,7 @@ jQuery.fn.extend(
 					//2、产生大图的可视区域
 					this.showBoxDom = $create("div");
 				 	cssStr = "position:absolute;border:1px solid black;overflow:hidden;";
-					cssStr+="left:"+this.boxDom.offsetWidth+"px;top: 0px;";
+					cssStr+="left:"+(this.boxDom.offsetWidth+5)+"px;top: 0px;";
 					cssStr+="width:"+this.width*this.mult+"px;height:"+this.height*this.mult+"px;";
 					cssStr+="display:none";
 					this.showBoxDom.style.cssText=cssStr;
@@ -67,22 +67,22 @@ jQuery.fn.extend(
 				initEvent:function(){
 					var obj = this;
 					
-					this.boxDom.onmouseover = function(){
+					this.boxDom.onmouseenter = function(){
 						obj.mirrorDom.style.display="block";
 						obj.showBoxDom.style.display="block";
 					}
 					
-					this.mirrorDom.onmouseout = function(){
+					this.mirrorDom.onmouseleave = function(){
 						obj.mirrorDom.style.display="none";
 						obj.showBoxDom.style.display="none";
 					}
 					
-					this.mirrorDom.onmouseover = function(){
+					this.mirrorDom.onmouseenter = function(){
 						obj.mirrorDom.style.display="none";
 						obj.showBoxDom.style.display="none";
 					}
 					
-					this.boxDom.onmouseout = function(){
+					this.boxDom.onmouseleave = function(){
 						obj.mirrorDom.style.display="none";
 						obj.showBoxDom.style.display="none";
 					}
@@ -112,7 +112,10 @@ jQuery.fn.extend(
 						//2、让放大的图片也进行对应的移动
 						obj.bigImgDom.style.left = (-1*obj.mult*left)+"px";
 						obj.bigImgDom.style.top = (-1*obj.mult*top)+"px";
-						
+                        if(evt.pageX>obj.boxDom.offsetLeft+obj.boxDom.offsetWidth){
+                            obj.mirrorDom.style.display = "none";
+                            obj.boxImgDom.style.display = "none";
+                        }
 					}	
 				}
 			}

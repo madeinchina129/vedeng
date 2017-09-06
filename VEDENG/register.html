@@ -32,34 +32,31 @@
             <div class="box-title">
                 <h3>用户注册</h3>
             </div>
-
+        <form action = "php/register.php" method = "post">
             <div class="list box-body">
                 <div class = "item item-input">
                     <label for="mobile" class="input-label"><b class="asterisk">*</b>手机号码:</label>
                     <div class="input-content input-correct">
-                        <input type = "text" name="" id="mobile" maxlength="15" class = "form-control input-full" placeholder="请输入手机号码"/>
+                        <input type = "text" name="phone" id="mobile" maxlength="15" class = "form-control input-full" placeholder="请输入手机号码"/>
                     </div>
 
                 </div>
                 <div class = "item item-input">
-                    <label for="captcha" class="input-label"><b class="asterisk">*</b>验证码:</label>
+                    <label for="email" class="input-label"><b class="asterisk">*</b>邮箱:</label>
                     <div class="input-content">
-                        <input type="text" name="" id="captcha" maxlength="4" class="form-control input-half" placeholder="右图的字符"/>
+                        <input type="text" name="email" id="email" class="form-control input-full" placeholder="请输入邮箱号码"/>
                     </div>
-                    <img src = "HTML/captcha.html" alt=""/>
-                    <a href="#" id="changeCaptcha_001">刷新</a>
                 </div>
                 <div class = "item item-input">
-                    <label for = "sms_verify_code" class = "input-label"><b class="asterisk">*</b>手机验证码:</label>
+                    <label for = "sms_verify_code" class = "input-label"><b class="asterisk">*</b>用户名:</label>
                     <div class="input-content">
-                        <input type="text" name="" id="sms_verify_code" maxlength="6" class="form-control input-half" placeholder="短信验证码"/>
+                        <input type="text" name="username" id="sms_verify_code" maxlength="6" class="form-control input-full" placeholder="请输入用户名"/>
                     </div>
-                    <a href="#" id="btn_sms_verify_code" class="btn btn_default">获取短信验证码</a>
                 </div>
                 <div class="item item-input">
                     <label for="password-1" class="input-label"><b class="asterisk">*</b>密码:</label>
                     <div class="input-content">
-                        <input type="password" name="" id="password-1" maxlength="16" class="form-control input-full" placeholder="请输入6-16位的密码"/>
+                        <input type="password" name="password" id="password-1" maxlength="16" class="form-control input-full" placeholder="请输入6-16位的密码"/>
                         <div class="pass-strength" style="display: none">
                             <label >安全程度：</label>
                             <span class="weak" id="pass-strength">&nbsp;</span>
@@ -70,13 +67,13 @@
                 <div class="item item-input">
                     <label for="passwd-2" class="input-label"><b class="asterisk">*</b>确认密码：</label>
                     <div class="input-content">
-                        <input type="password" name="" id="passwd-2" value="" class="form-control input-full" placeholder="请再次输入密码" data-messages="确认密码不正确!" maxlength="16">
+                        <input type="password" name="repass" id="passwd-2" value="" class="form-control input-full" placeholder="请再次输入密码" data-messages="确认密码不正确!" maxlength="16">
                     </div>
                 </div>
                 <div class="item item-input">
                     <label for="corporation" class="input-label"><b class="asterisk">*</b>企业名称：</label>
                     <div class="input-content input-correct">
-                        <input type="text" name="" id="corporation" class="form-control input-full" placeholder="请输入企业名称" data-messages="请输入企业名称!">
+                        <input type="text" name="companyName" id="corporation" class="form-control input-full" placeholder="请输入企业名称" data-messages="请输入企业名称!">
                     </div>
                 </div>
                 <div class="item item-input checkbox-content">
@@ -90,7 +87,7 @@
                 </div>
                 <div class="item item-input submit-content">
                     <div class="input-content">
-                        <a href="#" id="formSubmit" class="btn btn-submit btn-lg btn-full">注册</a>
+                        <input type = "submit" id="formSubmit" class="btn btn-submit btn-lg btn-full" value = "注册"/>
                     </div>
                 </div>
                 <div class="item item-input login-link-content">
@@ -99,6 +96,8 @@
                     </div>
                 </div>
                 </div>
+            </form>
+            </div>
             </div>
         <div class="reg-img">&nbsp;</div>
     </div>
